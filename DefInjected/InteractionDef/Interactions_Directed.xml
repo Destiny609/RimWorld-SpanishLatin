@@ -1,29 +1,69 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <BuildRapport.label>Charla</BuildRapport.label>
+<BuildRapport.label>charla amistosa</BuildRapport.label>
+
 	<BuildRapport.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] intentó ganarse la confianza de [OTHER_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] [toldastoryabout] sobre [subject] a [RECIPIENT_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] habló a [RECIPIENT_nameIndef] sobre [subject].</li>
+		<li>_logentry->[INITIATOR_nameIndef] preguntó a [RECIPIENT_nameIndef] sobre [subject].</li>
+		<li>_logentry->[INITIATOR_nameIndef] alentó a [RECIPIENT_nameIndef] a [talkabout] sobre [subject].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] permitió a [RECIPIENT_nameIndef] [talkabout] sobre [subject].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] expresó interés en el/la [PersonalCharacteristic] de [RECIPIENT_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] ha preguntado a [RECIPIENT_nameIndef] sobre su [PersonalCharacteristic].</li>
+
+		<li>toldastoryabout(p=2)->contó una historia</li>
+		<li>toldastoryabout->contó una historia graciosa</li>
+		<li>toldastoryabout->contó una historia honesta</li>
+		<li>toldastoryabout->relató una vieja historia</li>
+		<li>toldastoryabout->relató una historia familiar</li>
+		<li>toldastoryabout->relató una historia de su niñez</li>
+		<li>toldastoryabout->mencionó una anécdota</li>
+
+		<li>talkabout->hablar</li>
+		<li>talkabout->discutir</li>
+		<li>talkabout->debatir</li>
+		<li>talkabout->preguntar</li>
+		<li>talkabout->hablar</li>
+		<li>talkabout->preguntar</li>
+
+		<li>subject->la colonia</li>
+		<li>subject->la comunidad</li>
+		<li>subject->animales</li>
+		<li>subject->negocios</li>
+		<li>subject->amistad</li>
+		<li>subject->viajes</li>
+		<li>subject->religión</li>
+		<li>subject->lealtad</li>
+		<li>subject->su salud</li>
+		<li>subject->su familia</li>
+		<li>subject(p=4)->[ConceptPositive]</li>
+		<li>subject(p=2)->su [PersonalCharacteristic]</li>
+		<li>subject(p=8)->[TalkTopicLight]</li>
 	</BuildRapport.logRulesInitiator.rulesStrings>
-	<BuildRapport.logRulesRecipient.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] escuchó a [OTHER_nameIndef] intentando ganarse su confianza.</li>
-	</BuildRapport.logRulesRecipient.rulesStrings>
 
-  <RecruitAttempt.label>[INITIATOR_nameIndef] intento de reclutamiento</RecruitAttempt.label>
+<RecruitAttempt.label>intento de reclutamiento</RecruitAttempt.label>
+
 	<RecruitAttempt.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] intentó reclutar a [OTHER_nameIndef].</li>
-	</RecruitAttempt.logRulesInitiator.rulesStrings>
-	<RecruitAttempt.logRulesRecipient.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] escuchó un intento de reclutamiento de [OTHER_nameIndef].</li>
-	</RecruitAttempt.logRulesRecipient.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] ha pedido a [RECIPIENT_nameIndef] unirse a la comunidad.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] prometió [goodthing] a [RECIPIENT_nameIndef], y le ha pedido unirse a la comunidad.</li>
 
-  <SparkJailbreak.label>Provocar una fuga</SparkJailbreak.label>
+		<li>goodthing(p=15)->[ConceptPositive]</li>
+		<li>goodthing->comida limpia y fresca</li>
+	</RecruitAttempt.logRulesInitiator.rulesStrings>
+
+<SparkJailbreak.label>fuga de prisioneros</SparkJailbreak.label>
+
 	<SparkJailbreak.logRulesInitiator.rulesStrings>
-		<li>r_logentry->[INITIATOR_nameIndef] esta incitando a [OTHER_nameIndef] para escapar.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] habló sobre la alegría de la [freedom], y ofreció un medio para escapar.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] habló sobre la belleza del [TerrainFeature] y la libertad.</li>
+		<li>r_logentry->[INITIATOR_nameIndef] demostró una forma de escape a [RECIPIENT_nameIndef], y prometió [freedom].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] convenció a [RECIPIENT_nameIndef] de que la seguridad es pobre y ha alentado una fuga.</li>
+
+		<li>freedom->libertad</li>
+		<li>freedom->auto-determinación</li>
+		<li>freedom->emancipación</li>
+		<li>freedom->libertad</li>
 	</SparkJailbreak.logRulesInitiator.rulesStrings>
-	
-	<SparkJailbreak.logRulesRecipient.rulesStrings>
-		<li>r_logentry->[OTHER_nameIndef] fue incitado por [INITIATOR_nameIndef] para escapar.</li>
-	</SparkJailbreak.logRulesRecipient.rulesStrings>
 
 </LanguageData>

@@ -53,31 +53,26 @@
 		<li>TalkTopicHeavy(p=0.08)->la relación entre la [talktopicheavyfile] y la [talktopicheavyfile]</li>
 		<li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
 		<li>TalkTopicLight->[Vegetable]s</li>
-		<li>TalkTopicLight->comiendo [Vegetable]s</li>
-		<li>TalkTopicLight->cocinando [Vegetable]s</li>
+		<li>TalkTopicLight->comer [Vegetable]s</li>
+		<li>TalkTopicLight->cocinar [Vegetable]s</li>
 		<li>TalkTopicLight->[Game]</li>
-		<li>TalkTopicLight->jugando [Game]</li>
-		<li>TalkTopicLight->practicando [Game]</li>
-		<li>TalkTopicLight->aprendiendo [Game]</li>
+		<li>TalkTopicLight->jugar [Game]</li>
+		<li>TalkTopicLight->practicar [Game]</li>
+		<li>TalkTopicLight->aprender [Game]</li>
 		<li>TalkTopicLight->[Animal]s</li>
-		<li>TalkTopicLight->entrenando [Animal]s</li>
-		<li>TalkTopicLight->domando [Animal]s</li>
-		<li>TalkTopicLight->luchando contra [Animal]s</li>
+		<li>TalkTopicLight->entrenar [Animal]s</li>
+		<li>TalkTopicLight->doma de [Animal]s</li>
+		<li>TalkTopicLight->luchar contra [Animal]s</li>
 		<li>TalkTopicLight->[Animal]s locos</li>
 		<li>TalkTopicLight->[Weapon]s</li>
-		<li>TalkTopicLight->usando [Weapon]s</li>
-		<li>TalkTopicLight->practicando con [Weapon]s</li>
+		<li>TalkTopicLight->usar [Weapon]s</li>
+		<li>TalkTopicLight->practicar con [Weapon]s</li>
 		<li>TalkTopicLight->[TerrainFeature]s</li>
 		<li>TalkTopicLight->[NaturalObject]s</li>
 		<li>TalkTopicLight->[TreeType]s</li>
 		<li>TalkTopicLight->[PersonJob]s</li>
 		<li>TalkTopicLight->[PersonJob]s amigables</li>
 		<li>TalkTopicLight->[PersonJob]s hostiles</li>
-		<li>TalkTopicLight->[Enemy]s</li>
-		<li>TalkTopicLight->luchando contra [Enemy]s</li>
-		<li>TalkTopicLight->[Apparel]s</li>
-		<li>TalkTopicLight->vistiendo [Apparel]s</li>
-		<li>TalkTopicLight->fabricando [Apparel]s</li>
 	</TalkTopicsUtility.rulePack.rulesStrings>
 
 

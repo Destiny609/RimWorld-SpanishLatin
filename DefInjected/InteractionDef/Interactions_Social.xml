@@ -1,40 +1,112 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <!-- Random social interactions -->
+	<!-- Random social interactions -->
 
-  <Chitchat.label>Charla</Chitchat.label>
+	<Chitchat.label>Charla</Chitchat.label>
 	<Chitchat.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Tuvo una buena charla con [OTHER_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [TalkTopicLight].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [TalkTopicLight].</li>
+
+		<li>talkedabout(p=4)->hablaron sobre</li>
+		<li>talkedabout->platicaron sobre</li>
+		<li>talkedabout->charlaron sobre</li>
+		<li>talkedabout->cuchichearon sobre</li>
+		<li>talkedabout->hablaron sobre</li>
+		<li>talkedabout->bromearon sobre</li>
+		<li>talkedabout->charlaron sobre</li>
 	</Chitchat.logRulesInitiator.rulesStrings>
 
-  <DeepTalk.label>Charla profunda</DeepTalk.label>
+
+
+	<DeepTalk.label>Charla profunda</DeepTalk.label>
 	<DeepTalk.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Tuvo una conversación profunda con [OTHER_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [subject].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] y [RECIPIENT_nameIndef] [talkedabout] [subject].</li>
+
+		<li>talkedabout->compartieron ideas sobre</li>
+		<li>talkedabout->intercambiaron opiniones sobre</li>
+		<li>talkedabout->charlaron sobre</li>
+		<li>talkedabout->hablaron sobre</li>
+		<li>talkedabout->discutieron sobre</li>
+		<li>talkedabout->hablaron a profundidad sobre</li>
+		<li>talkedabout->debatieron sobre</li>
+		<li>talkedabout->compartieron sus puntos de vista sobre</li>
+		<li>talkedabout->compartieron sus ideas sobre</li>
+		<li>talkedabout->hablaron acerca de</li>
+
+		<li>subject(p=2)->[TalkTopicHeavy]</li>
+		<li>subject->[TalkTopicLight]</li>
 	</DeepTalk.logRulesInitiator.rulesStrings>
 
-  <Slight.label>Ofensa</Slight.label>
-	<Slight.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Ha ofendido a [OTHER_nameIndef].</li>
-	</Slight.logRulesInitiator.rulesStrings>
-	<Slight.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Ha sido ofendido(a) por [OTHER_nameIndef].</li>
-	</Slight.logRulesRecipient.rulesStrings>
 
-  <Insult.label>Insulto</Insult.label>
+
+	<Slight.label>Ofensa</Slight.label>
+	<Slight.logRulesInitiator.rulesStrings>
+		<li>r_logentry->[INITIATOR_nameIndef] [madefunof] del [PersonalCharacteristic] de [target].</li>
+
+		<li>target(p=4)->[RECIPIENT_nameIndef]</li>
+		<li>target->la [Family] de [RECIPIENT_nameIndef]</li>
+
+		<li>madefunof->se burló</li>
+		<li>madefunof->hizo un chiste</li>
+		<li>madefunof->se burló</li>
+		<li>madefunof->habló negativamente</li>
+		<li>madefunof->se rió</li>
+		<li>madefunof->carcajeó</li>
+		<li>madefunof->habló despectivamente</li>
+		<li>madefunof->habló burlonamente</li>
+		<li>madefunof->hizo un comentario burlón</li>
+		<li>madefunof->habló negativamente</li>
+		<li>madefunof->se burló</li>
+		<li>madefunof->se rió</li>
+	</Slight.logRulesInitiator.rulesStrings>
+
+
+
+	<Insult.label>Insulto</Insult.label>
 	<Insult.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Ha insultado a [OTHER_nameIndef].</li>
+		<li>r_logentry(p=3)->[INITIATOR_nameIndef] [insulted] el/la [PersonalCharacteristic] de [target].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] comparó a [target] con un(a) [insultcomparison].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] llamó a [target] un(a) [insultcomparison].</li>
+
+		<li>target(p=4)->[RECIPIENT_nameIndef]</li>
+		<li>target->la [Family] de [RECIPIENT_nameIndef]</li>
+
+		<li>insulted(p=3)->insultó</li>
+		<li>insulted->insultó abiertamente</li>
+		<li>insulted->ofendió abiertamente</li>
+		<li>insulted->se burló directamente</li>
+		<li>insulted->se burló viciosamente</li>
+		<li>insulted->insultó directamente</li>
+		<li>insulted->despreció</li>
+		<li>insulted->insultó</li>
+		<li>insulted->insultó</li>
+		<li>insulted->se burló</li>
+
+		<li>insultcomparison(p=2)->[Animal]</li>
+		<li>insultcomparison->[Enemy]</li>
 	</Insult.logRulesInitiator.rulesStrings>
-	<Insult.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Ha sido insultado(a) por [OTHER_nameIndef].</li>
-	</Insult.logRulesRecipient.rulesStrings>
-  
-  <KindWords.label>Amabilidad</KindWords.label>
+
+
+	
+	<KindWords.label>Amabilidad</KindWords.label>
 	<KindWords.logRulesInitiator.rulesStrings>
-		<li>r_logentry->Dijo palabras amables a [OTHER_nameIndef].</li>
+		<li>r_logentry->[INITIATOR_nameIndef] [complimented] el/la [PersonalCharacteristic] de [RECIPIENT_nameIndef].</li>
+
+		<li>complimented(p=3)->alabó</li>
+		<li>complimented->elogió</li>
+		<li>complimented->exaltó</li>
+		<li>complimented->aplaudió</li>
+		<li>complimented->celebró</li>
+		<li>complimented->expresó cosas buenas sobre</li>
+		<li>complimented->expresó apreciación sobre</li>
+		<li>complimented->dijo cosas buenas sobre</li>
+		<li>complimented->alabó</li>
+		<li>complimented->elogió</li>
+		<li>complimented->aplaudió</li>
+		<li>complimented->expresó cosas buenas sobre</li>
+		<li>complimented->dijo cosas buenas sobre</li>
 	</KindWords.logRulesInitiator.rulesStrings>
-	<KindWords.logRulesRecipient.rulesStrings>
-		<li>r_logentry->Recibió palabras amables de parte de [OTHER_nameIndef].</li>
-	</KindWords.logRulesRecipient.rulesStrings>  
 
 </LanguageData>
