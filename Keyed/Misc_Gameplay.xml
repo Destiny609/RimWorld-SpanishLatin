@@ -94,6 +94,8 @@
   <CaravanTraveling>Viajando.</CaravanTraveling>
   <CaravanPaused>Pausado.</CaravanPaused>
   <CaravanWaiting>Esperando.</CaravanWaiting>
+  <BeingCarriedDueToIllness>Siendo cargado por enfermedad</BeingCarriedDueToIllness>
+  <UsingBedrollsDueToIllness>Usando sacos de dormir debido a una enfermedad</UsingBedrollsDueToIllness>
   <CurrentTileMovementTime>Velocidad actual</CurrentTileMovementTime>
   <Visibility>Visibilidad</Visibility>
   <Temperature>Temperatura</Temperature>
@@ -134,7 +136,6 @@
   <WorldObjectTimeout>Tiempo restante: {0}</WorldObjectTimeout>
   <LongRangeMineralScannerEfficiency>Eficiencia: {0}</LongRangeMineralScannerEfficiency>
   <ItemStashContents>Contenidos: {0}.</ItemStashContents>
-  <SomeItemStashContents>Algunos contenidos: {0}.</SomeItemStashContents>
   <ClickToSortByThisColumn>Clic para ordenar por esta columna.</ClickToSortByThisColumn>
   <WorkPriorityShiftClickTip>Shift + clic: Incrementar la prioridad\nShift + clic derecho: Disminuir la prioridad</WorkPriorityShiftClickTip>
   <WorkPriorityShiftClickEnableDisableTip>Shift + clic: Activar todo\nShift + clic derecho: Desactivar todo</WorkPriorityShiftClickEnableDisableTip>
@@ -152,6 +153,7 @@
   <Impassable>Impasable</Impassable>
   <CaravanMovementSpeedFull>Velocidad de movimiento de la caravana</CaravanMovementSpeedFull>
   <DownedLower>Derribado</DownedLower>
+  <Carried>Cargado</Carried>
   <AverageCaravanMemberMoveSpeed>Velocidad media de movimiento de la persona</AverageCaravanMemberMoveSpeed>
   <MultiplierForCarriedMass>Multiplicador de la masa transportada: {0}</MultiplierForCarriedMass>
   <FinalCaravanPawnsMovementSpeed>Velocidad de los miembros de la caravana</FinalCaravanPawnsMovementSpeed>
@@ -171,7 +173,7 @@
   <ProximitySingleGoodwillChange>{0} con {1}</ProximitySingleGoodwillChange>
   <EnterCooldown>No puede volver a entrar por otros {0} días.</EnterCooldown>
   <Caravan>Caravana</Caravan>
-  <HiddenOrNoSitePartDescription>puede haber peligro allí</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>Puede haber peligro allí</HiddenOrNoSitePartDescription>
   <PreciousLumpLabel>pedazo de {0}</PreciousLumpLabel>
 
   <!-- Fermentation barrel -->
@@ -248,7 +250,7 @@
   <ReportStanding>De pie.</ReportStanding>
   <ReportExtinguishingFire>Extinguiendo el fuego.</ReportExtinguishingFire>
   <ReportExtinguishingFireOn>Extinguiendo el fuego en {0}.</ReportExtinguishingFireOn>
-  <ReportDiggingUpCorpse>desenterrando un cadávere.</ReportDiggingUpCorpse>
+  <ReportDiggingUpCorpse>Desenterrando un cadávere.</ReportDiggingUpCorpse>
 
   <!-- Lord job reports -->
   <LordReportAttendingMarriageCeremony>Asistiendo a ceremonia de matrimonio</LordReportAttendingMarriageCeremony>
@@ -417,7 +419,7 @@
   <ImpactDate>Fecha de impacto</ImpactDate>
 
   <!-- Building placement -->
-  <NoStuffsToBuildWith>No tienes materiales disponibles para construir Esto.</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>No tienes materiales disponibles para construir esto.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
   <WillGetWorkSpeedPenalty>{0} tendrá una penalización a la velocidad de trabajo.</WillGetWorkSpeedPenalty>
@@ -429,7 +431,7 @@
   <MustPlaceVentWithFreeSpaces>Ambos lados deben estar libres para que el aire pueda circular.</MustPlaceVentWithFreeSpaces>
   <MustPlaceAdjacentStandable>Debe colocarse con espacio libre en todos los lados.</MustPlaceAdjacentStandable>
   <MustPlaceNearFuelingPort>Se debe situar a un costado de un puerto de recarga de una lanzadera de cápsulas.</MustPlaceNearFuelingPort>
-  <MustPlaceOnDrillable>Must be placed on drillable resources.</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>Debe colocarse en recursos perforables.</MustPlaceOnDrillable>
 
   <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>Bloqueado por</WindTurbine_WindPathIsBlockedBy>
