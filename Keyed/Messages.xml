@@ -21,7 +21,7 @@
 
   <MessageWornApparelDeterioratedAway>Un(a) {0} que {1} vestía se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
 
-  <MessageSeasonBegun>Ha comenzado el/la {0}.</MessageSeasonBegun>
+  <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
 
   <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango.</MessageShipHasLeftCommsRange>
 
@@ -139,7 +139,7 @@
 
   <MessageRottedAwayInStorage>{0} se hechado a perder en el almacén.</MessageRottedAwayInStorage>
 
-  <MessageFoodPoisoning>{0} se ha intoxicado con: {1}.Causa: {2}</MessageFoodPoisoning>
+  <MessageFoodPoisoning>{0} se ha intoxicado con: {1}. Causa: {2}</MessageFoodPoisoning>
 
   <MessagePawnLostWhileFormingCaravan>{0} ha sido sacado de la caravana.</MessagePawnLostWhileFormingCaravan>
   <MessagePawnLostWhileFormingCaravan_AllLost>El proceso de formación de caravanas ha terminado.</MessagePawnLostWhileFormingCaravan_AllLost>
