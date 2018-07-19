@@ -402,5 +402,9 @@
   <Research.verb>Investigar</Research.verb>
   <Research.gerund>Investigando</Research.gerund>
 
-    
+  <Scan.label>Operar escáner</Scan.label>
+  <Scan.verb>Escanear</Scan.verb>
+  <Scan.gerund>Escaneando en</Scan.gerund>
+
+
 </LanguageData>

@@ -1,11 +1,11 @@
 # Latin American Spanish Translation of RimWorld
 
 ![Logo](https://github.com/Ludeon/RimWorld-SpanishLatin/blob/master/LangIcon.png?raw=true) <br>
-![VRim](https://img.shields.io/badge/RimWorld-0.18.1712-green.svg?style=for-the-badge)
+![VRim](https://img.shields.io/badge/RimWorld-1.0.1967-green.svg?style=for-the-badge)
 
 _ _ _
 
-This is the Latin American Spanish translation of Rimworld 1.0.1956 (Development Build)
+This is the Latin American Spanish translation of Rimworld 1.0.19XX (Development Build)
 
 See this page for license info:
 

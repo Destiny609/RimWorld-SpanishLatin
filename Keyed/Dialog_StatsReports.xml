@@ -23,6 +23,7 @@
   <StatsReport_FinalValue>Valor final</StatsReport_FinalValue>
   <StatsReport_MarketValueFromStuffsAndWork>Valor de mercado base calculado a partir de los materiales de construcción y la cantidad del trabajo.</StatsReport_MarketValueFromStuffsAndWork>
   <StatsReport_QualityMultiplier>Multiplicador de calidad</StatsReport_QualityMultiplier>
+  <StatsReport_MaxGain>Ganancia máxima</StatsReport_MaxGain>
   <StatsReport_AgeMultiplier>Multiplicador por edad {0}</StatsReport_AgeMultiplier>
   <StatsReport_HealthMultiplier>Multiplicador por salud {0}</StatsReport_HealthMultiplier>
   <StatsReport_MoodMultiplier>Multiplicador por humor {0}</StatsReport_MoodMultiplier>
@@ -31,7 +32,7 @@
   <StatsReport_InBed>En cama</StatsReport_InBed>
   <StatsReport_Facilities>Instalaciones</StatsReport_Facilities>
   <StatsReport_BodySize>Multiplicador por tamaño corporal {0}</StatsReport_BodySize>
-  <StatsReport_MeleeDPSExplanation>La estadística se muestra en el siguiente formato:\nDPS ( Daño en melee / Enfriamiento en segundos / Chance de acierto en melee )\n\nDPS = Daño en melee * Chance de acierto en melee / Enfriamiento en segundos</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>La estadística se muestra en el siguiente formato:\nDPS ( Daño cuerpo a cuerpo / Enfriamiento en segundos / Chance de acierto en melee )\n\nDPS = Daño en melee * Chance de acierto en melee / Enfriamiento en segundos</StatsReport_MeleeDPSExplanation>
   <StatsReport_MeleeDamage>Daño en combate</StatsReport_MeleeDamage>
   <StatsReport_Cooldown>Enfriamiento</StatsReport_Cooldown>
   <StatsReport_MeleeHitChance>Chance de acierto en combate</StatsReport_MeleeHitChance>

@@ -3,14 +3,14 @@
   
   <!-- =============================== Farm animals ============================= -->
   
-	<GrizzlyBear.label>Oso grizzly</GrizzlyBear.label>
+	<GrizzlyBear.label>Oso Pardo</GrizzlyBear.label>
 	<GrizzlyBear.description>Enormes mamíferos omnívoros adaptados a los climas fríos. Su gruesa capa de grasa y su piel los mantienen calientes en invierno.\n\nMientras que su dieta usual consiste de pescados, moras, miel y carne de carroña, el grizzly es capaz de usar su gran fuerza y sus mortales garras para matar presas vivas. Son increíblemente rápidos para ser creaturas tan toscas.</GrizzlyBear.description>
-	<GrizzlyBear_Meat.label>carne de oso grizzly</GrizzlyBear_Meat.label>
-	<GrizzlyBear_Meat.description>La carne de un oso grizzly.</GrizzlyBear_Meat.description>
-	<GrizzlyBear_Corpse.label>cadáver de oso grizzly</GrizzlyBear_Corpse.label>
-	<GrizzlyBear_Corpse.description>El cuerpo sin vida de un oso grizzly.</GrizzlyBear_Corpse.description>
+	<GrizzlyBear_Meat.label>carne de oso pardo</GrizzlyBear_Meat.label>
+	<GrizzlyBear_Meat.description>La carne de un oso pardo.</GrizzlyBear_Meat.description>
+	<GrizzlyBear_Corpse.label>cadáver de oso pardo</GrizzlyBear_Corpse.label>
+	<GrizzlyBear_Corpse.description>El cuerpo sin vida de un oso pardo.</GrizzlyBear_Corpse.description>
   
-	<PolarBear.label>Oso polar</PolarBear.label>
+	<PolarBear.label>Oso Polar</PolarBear.label>
 	<PolarBear.description>Un gran oso blanco que vive en el lejano norte. Su gruesa capa de grasa y su piel los mantienen calientes en invierno.\n\nMientras que su dieta usual consiste de pescados y carne de carroña, el oso polar es capaz de usar su gran fuerza y sus mortales garras para matar presas vivas. Son increíblemente rápidos para ser creaturas tan toscas.</PolarBear.description>
 	<PolarBear_Corpse.label>cadáver de oso polar</PolarBear_Corpse.label>
 	<PolarBear_Corpse.description>El cuerpo sin vida de un oso polar.</PolarBear_Corpse.description>

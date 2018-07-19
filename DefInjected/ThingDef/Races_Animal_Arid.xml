@@ -26,7 +26,6 @@
 	
 	<Rhinoceros.label>Rinoceronte</Rhinoceros.label>
 	<Rhinoceros.description>Este gran animal terrestre es generalmente bastante pacifico, pero no dudará en atacar con su cuerno para expulsar a los intrusos.</Rhinoceros.description>
-
 	<Rhinoceros_Meat.label>carne de rinoceronte</Rhinoceros_Meat.label>
 	<Rhinoceros_Meat.description>La carne de un rinoceronte.</Rhinoceros_Meat.description>
 	<Rhinoceros_Corpse.label>cadáver de rinoceronte</Rhinoceros_Corpse.label>
