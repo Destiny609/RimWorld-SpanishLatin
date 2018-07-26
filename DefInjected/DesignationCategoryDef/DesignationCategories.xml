@@ -1,17 +1,40 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Orders.label>Órdenes</Orders.label>
-  <Zone.label>Áreas</Zone.label>
-  <Structure.label>Construcción</Structure.label>
-  <Production.label>Producción</Production.label>
-  <Furniture.label>Mobiliario</Furniture.label>
-  <Power.label>Electricidad</Power.label>
-  <Security.label>Seguridad</Security.label>
-  <Misc.label>Varios</Misc.label>
-  <Floors.label>Suelo</Floors.label>
-  <Joy.label>Diversión</Joy.label>
-  <Ship.label>Nave</Ship.label>
-  <Temperature.label>Temperatura</Temperature.label>
-
+  
+  <!-- EN: floors -->
+  <Floors.label>suelos</Floors.label>
+  
+  <!-- EN: furniture -->
+  <Furniture.label>mobiliario</Furniture.label>
+  
+  <!-- EN: recreation -->
+  <Joy.label>diversión</Joy.label>
+  
+  <!-- EN: misc -->
+  <Misc.label>varios</Misc.label>
+  
+  <!-- EN: orders -->
+  <Orders.label>órdenes</Orders.label>
+  
+  <!-- EN: power -->
+  <Power.label>electricidad</Power.label>
+  
+  <!-- EN: production -->
+  <Production.label>producción</Production.label>
+  
+  <!-- EN: security -->
+  <Security.label>seguridad</Security.label>
+  
+  <!-- EN: ship -->
+  <Ship.label>nave</Ship.label>
+  
+  <!-- EN: structure -->
+  <Structure.label>construcción</Structure.label>
+  
+  <!-- EN: temperature -->
+  <Temperature.label>temperatura</Temperature.label>
+  
+  <!-- EN: zone -->
+  <Zone.label>áreas</Zone.label>
+  
 </LanguageData>

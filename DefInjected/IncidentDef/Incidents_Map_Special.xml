@@ -1,31 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- ShipChunkDrop -->
-
-  <ShipChunkDrop.label>Caída de Sección de Nave</ShipChunkDrop.label>
-
-
-  <!-- OrbitalVisitor -->
-
-  <OrbitalTraderArrival.label>Mercader Espacial</OrbitalTraderArrival.label>
-
-
-  <!-- FactionArrival -->
-
-  <TraderCaravanArrival.label>Caravana Mercante</TraderCaravanArrival.label>
-  <VisitorGroup.label>Visitantes</VisitorGroup.label>
-  <TravelerGroup.label>Viajeros</TravelerGroup.label>
-
-
-  <!-- AllyAssistance -->
-
-  <RaidFriendly.label>Asalto Amistoso</RaidFriendly.label>
-
-
-  <!-- Raid-beacon-attracted events -->
-
-  <RaidEnemyBeacon.label>Asalto Enemigo (Punto Especial)</RaidEnemyBeacon.label>
-
-
+  
+  <!-- EN: orbital trader arrival -->
+  <OrbitalTraderArrival.label>llegada de comerciante orbital</OrbitalTraderArrival.label>
+  
+  <!-- EN: enemy raid (special locations) -->
+  <RaidEnemyBeacon.label>asalto enemigo (ubicaciones especiales)</RaidEnemyBeacon.label>
+  
+  <!-- EN: friendly raid -->
+  <RaidFriendly.label>asalto amistoso</RaidFriendly.label>
+  
+  <!-- EN: ship chunk drop -->
+  <ShipChunkDrop.label>caída de sección de nave</ShipChunkDrop.label>
+  
+  <!-- EN: trader caravan arrival -->
+  <TraderCaravanArrival.label>llegada de caravana mercante</TraderCaravanArrival.label>
+  
+  <!-- EN: traveler group -->
+  <TravelerGroup.label>grupo de viajeros</TravelerGroup.label>
+  
+  <!-- EN: visitor group -->
+  <VisitorGroup.label>grupo de visitantes</VisitorGroup.label>
+  
 </LanguageData>

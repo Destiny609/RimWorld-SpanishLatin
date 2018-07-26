@@ -1,55 +1,95 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Misc -->
-
-  <Body.label>Cuerpo</Body.label>
-  <Beak.label>Pico</Beak.label>
-  <InsectHead.label>Cabeza</InsectHead.label>
-  <SnakeBody.label>Cuerpo</SnakeBody.label>
-  <SnakeHead.label>Cabeza</SnakeHead.label>
-  <SnakeMouth.label>Boca</SnakeMouth.label>
-  <InsectHeart.label>Corazón</InsectHeart.label>
-  <InsectNostril.label>Orificio Respiratorio</InsectNostril.label>
-  <InsectMouth.label>Boca</InsectMouth.label>
-  <AnimalJaw.label>Mandíbula</AnimalJaw.label>
-  <Jowl.label>Papada</Jowl.label>
-  <Tail.label>Cola</Tail.label>
-  <Antenna.label>Antena</Antenna.label>
-  <Pronotum.label>Protórax</Pronotum.label>
-  <Shell.label>Exoesqueleto</Shell.label>
-  <Elytra.label>Elytra</Elytra.label>
-  <Tusk.label>Colmillo</Tusk.label>
-  <Trunk.label>Trompa</Trunk.label>
-  <Horn.label>Cuerno</Horn.label>
-  <HeadClaw.label>Garra Craneal</HeadClaw.label>
-  <Hump.label>Joroba</Hump.label>
-  <TurtleShell.label>Caparazón</TurtleShell.label>
-  <Plastron.label>Plastrón</Plastron.label>
-  <TurtleBeak.label>Pico</TurtleBeak.label>
-
-
-  <!-- Insect legs -->
-
-  <InsectLeg.label>Pata</InsectLeg.label>
-
-
-  <!-- Paws -->
-
-  <Paw.label>Pata</Paw.label>
-
-
-  <!-- Hoofs -->
-
-  <Hoof.label>Pezuña</Hoof.label>
-
-
-  <!-- Claws -->
-
-  <FrontClaw.label>Garra Frontal</FrontClaw.label>
-  <FrontClaw.labelShort>Garra</FrontClaw.labelShort>
-
-  <RearClaw.label>Garra Trasera</RearClaw.label>
-  <RearClaw.labelShort>Garra</RearClaw.labelShort>
-
+  
+  <!-- EN: jaw -->
+  <AnimalJaw.label>mandíbula</AnimalJaw.label>
+  
+  <!-- EN: antenna -->
+  <Antenna.label>antena</Antenna.label>
+  
+  <!-- EN: beak -->
+  <Beak.label>pico</Beak.label>
+  
+  <!-- EN: body -->
+  <Body.label>cuerpo</Body.label>
+  
+  <!-- EN: elytra -->
+  <Elytra.label>elytra</Elytra.label>
+  
+  <!-- EN: front claw -->
+  <FrontClaw.label>garra frontal</FrontClaw.label>
+  <!-- EN: claw -->
+  <FrontClaw.labelShort>garra</FrontClaw.labelShort>
+  
+  <!-- EN: head claw -->
+  <HeadClaw.label>garra craneal</HeadClaw.label>
+  
+  <!-- EN: hoof -->
+  <Hoof.label>pezuña</Hoof.label>
+  
+  <!-- EN: horn -->
+  <Horn.label>cuerno</Horn.label>
+  
+  <!-- EN: hump -->
+  <Hump.label>joroba</Hump.label>
+  
+  <!-- EN: head -->
+  <InsectHead.label>cabeza</InsectHead.label>
+  
+  <!-- EN: heart -->
+  <InsectHeart.label>corazón</InsectHeart.label>
+  
+  <!-- EN: leg -->
+  <InsectLeg.label>pata</InsectLeg.label>
+  
+  <!-- EN: mouth -->
+  <InsectMouth.label>boca</InsectMouth.label>
+  
+  <!-- EN: nostril -->
+  <InsectNostril.label>orificio respiratorio</InsectNostril.label>
+  
+  <!-- EN: jowl -->
+  <Jowl.label>papada</Jowl.label>
+  
+  <!-- EN: paw -->
+  <Paw.label>pata</Paw.label>
+  
+  <!-- EN: plastron -->
+  <Plastron.label>plastrón</Plastron.label>
+  
+  <!-- EN: pronotum -->
+  <Pronotum.label>protórax</Pronotum.label>
+  
+  <!-- EN: rear claw -->
+  <RearClaw.label>garra trasera</RearClaw.label>
+  <!-- EN: claw -->
+  <RearClaw.labelShort>garra</RearClaw.labelShort>
+  
+  <!-- EN: shell -->
+  <Shell.label>exoesqueleto</Shell.label>
+  
+  <!-- EN: body -->
+  <SnakeBody.label>cuerpo</SnakeBody.label>
+  
+  <!-- EN: head -->
+  <SnakeHead.label>cabeza</SnakeHead.label>
+  
+  <!-- EN: mouth -->
+  <SnakeMouth.label>boca</SnakeMouth.label>
+  
+  <!-- EN: tail -->
+  <Tail.label>cola</Tail.label>
+  
+  <!-- EN: trunk -->
+  <Trunk.label>trompa</Trunk.label>
+  
+  <!-- EN: beak -->
+  <TurtleBeak.label>pico</TurtleBeak.label>
+  
+  <!-- EN: shell -->
+  <TurtleShell.label>caparazón</TurtleShell.label>
+  
+  <!-- EN: tusk -->
+  <Tusk.label>colmillo</Tusk.label>
+  
 </LanguageData>

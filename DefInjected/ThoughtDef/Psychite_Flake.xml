@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <FlakeHigh.stages.0.label>Flaca</FlakeHigh.stages.0.label>
-  <FlakeHigh.stages.0.description>Tan bueno, tan bueno.</FlakeHigh.stages.0.description>
-
-
+  
+  <!-- EN: high on flake -->
+  <FlakeHigh.stages.high_on_flake.label>drogado con Flaca</FlakeHigh.stages.high_on_flake.label>
+  <!-- EN: So good, so good. -->
+  <FlakeHigh.stages.high_on_flake.description>Tan bien, tan bien</FlakeHigh.stages.high_on_flake.description>
+  
 </LanguageData>

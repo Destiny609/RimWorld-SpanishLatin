@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- Smokeleaf addiction -->
-
-  <Smokeleaf.label>Viejo toby</Smokeleaf.label>
-
-
+  
+  <!-- EN: Smokeleaf -->
+  <Smokeleaf.label>hoja humeante</Smokeleaf.label>
+  
 </LanguageData>

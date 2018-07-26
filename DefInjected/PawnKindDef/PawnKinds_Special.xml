@@ -1,15 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: slave -->
   <Slave.label>esclavo</Slave.label>
   <Slave.labelPlural>esclavos</Slave.labelPlural>
-
+  
+  <!-- EN: wild man -->
   <WildMan.label>hombre salvaje</WildMan.label>
-  <WildMan.labelPlural>hombres salvajes</WildMan.labelPlural>
+  <!-- EN: wild woman -->
+  <WildMan.labelFemale>mujer salvaje</WildMan.labelFemale>
+  <!-- EN: wild women -->
+  <WildMan.labelFemalePlural>mujeres salvajes</WildMan.labelFemalePlural>
   <WildMan.labelMale>hombre salvaje</WildMan.labelMale>
   <WildMan.labelMalePlural>hombres salvajes</WildMan.labelMalePlural>
-  <WildMan.labelFemale>mujer salvaje</WildMan.labelFemale>
-  <WildMan.labelFemalePlural>mujeres salvajes</WildMan.labelFemalePlural>
-
-
+  <!-- EN: wild men -->
+  <WildMan.labelPlural>hombres salvajes</WildMan.labelPlural>
+  
 </LanguageData>

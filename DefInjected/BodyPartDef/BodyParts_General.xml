@@ -1,17 +1,40 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <Head.label>Cabeza</Head.label>
-  <Skull.label>Cráneo</Skull.label>
-  <Brain.label>Cerebro</Brain.label>
-  <Eye.label>Ojo</Eye.label>
-  <Ear.label>Oreja</Ear.label>
-  <Nose.label>Nariz</Nose.label>
-  <Jaw.label>Mandíbula</Jaw.label>
-  <Neck.label>Cuello</Neck.label>
-  <Ribcage.label>Toráx</Ribcage.label>
-  <Spine.label>Columna Vertebral</Spine.label>
-  <Leg.label>Pata</Leg.label>
-  <Foot.label>Pie</Foot.label>
-
+  
+  <!-- EN: brain -->
+  <Brain.label>cerebro</Brain.label>
+  
+  <!-- EN: ear -->
+  <Ear.label>oreja</Ear.label>
+  
+  <!-- EN: eye -->
+  <Eye.label>ojo</Eye.label>
+  
+  <!-- EN: foot -->
+  <Foot.label>pie</Foot.label>
+  
+  <!-- EN: head -->
+  <Head.label>cabeza</Head.label>
+  
+  <!-- EN: jaw -->
+  <Jaw.label>mandíbula</Jaw.label>
+  
+  <!-- EN: leg -->
+  <Leg.label>pata</Leg.label>
+  
+  <!-- EN: neck -->
+  <Neck.label>cuello</Neck.label>
+  
+  <!-- EN: nose -->
+  <Nose.label>nariz</Nose.label>
+  
+  <!-- EN: ribcage -->
+  <Ribcage.label>toráx</Ribcage.label>
+  
+  <!-- EN: skull -->
+  <Skull.label>cráneo</Skull.label>
+  
+  <!-- EN: spine -->
+  <Spine.label>columna vertebral</Spine.label>
+  
 </LanguageData>
