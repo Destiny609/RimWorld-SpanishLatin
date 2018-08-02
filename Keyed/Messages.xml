@@ -31,22 +31,22 @@
   <MessageVisitorsTrappedLeaving>Los {0} de {1} han quedado atrapados y están excavando para escapar.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
   <MessageVisitorsDangerousTemperature>Los {0} de {1} estan abandonando el mapa por las temperaturas peligrosas.</MessageVisitorsDangerousTemperature>
-  
+
   <!-- EN: {0} worn by {1} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>El/la {0} que vestía {1} se ha deshecho por completo.</MessageWornApparelDeterioratedAway>
-  
+
   <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>Ahora es {0}.</MessageSeasonBegun>
 
   <!-- EN: {0} has left comms range. -->
   <MessageShipHasLeftCommsRange>La nave de {0} ha salido del rango.</MessageShipHasLeftCommsRange>
-  
+
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Necesitas una baliza de comercio orbital para comerciar con una nave.</MessageNeedBeaconToTradeWithShip>
-  
+
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Proyecto completado: {0}.</MessageBillComplete>
-  
+
   <!-- EN: {0} is fully healed. -->
   <MessageFullyHealed>{0} ha sanado por completo.</MessageFullyHealed>
 
@@ -56,19 +56,19 @@
   <!-- EN: {0} found no nearby unreserved shells for {1}. -->
   <MessageOutOfNearbyShellsFor>{0} no ha encontrado ningún obús sin reservar para el {1}.</MessageOutOfNearbyShellsFor>
 
-  <!-- EN: Warning: {0} may attack when harmed ({1} chance at rifle range, more if closer). -->
-  <MessageAnimalsGoPsychoHunted>Peligro: Los {0} casi siempre atacarán si se les lastima.</MessageAnimalsGoPsychoHunted>
+  <!-- EN: Warning: {0} have a {1} chance to attack when harmed from rifle range. Chance is higher if closer, less with good hunter stealth. -->
+  <MessageAnimalsGoPsychoHunted>Peligro: {0} tiene {1} de posibilidad de atacar cuando es herido desde el campo de tiro. La probabilidad es mayor si se está más cerca, y menor con un buen escondite de cazador.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {0} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Peligro: Los {0} podrían atacar si el intento de domesticación falla (chance del {1}).</MessageAnimalManhuntsOnTameFailed>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Nuevo recluta</LetterLabelMessageRecruitSuccess>
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <MessageRecruitSuccess>{0} ha reclutado con éxito a {1} (chance del {2}).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{0} ha reclutado con éxito a {1} (probabilidad del {2}).</MessageRecruitSuccess>
   <!-- EN: {0} successfully tamed {1} ({2} chance). -->
-  <MessageTameSuccess>{0} ha domesticado con éxito un(a) {1} (chance del {2}).</MessageTameSuccess>
+  <MessageTameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}).</MessageTameSuccess>
   <!-- EN: {0} successfully tamed {1} ({2} chance) and named [PAWN_objective] {3}. -->
-  <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (chance del {2}) y le ha nombrado {3}.</MessageTameAndNameSuccess>
+  <MessageTameAndNameSuccess>{0} ha domesticado con éxito un(a) {1} (probabilidad del {2}) y le ha nombrado {3}.</MessageTameAndNameSuccess>
 
   <!-- EN: The colony cannot afford this deal. -->
   <MessageColonyCannotAfford>La colonia no puede costear ésto.</MessageColonyCannotAfford>
@@ -122,7 +122,7 @@
   <MessageTooLowMedCare>La operación requiere un nivel de medicina de {0} o mejor, pero {1} solo llega al "{2}".</MessageTooLowMedCare>
   
   <!-- EN: {0} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{0} a muerto de {1}.</PawnDiedBecauseOf>
+  <PawnDiedBecauseOf>{0} a muerto. Causa: {1}.</PawnDiedBecauseOf>
   <!-- EN: {0} has died. -->
   <PawnDied>{0} ha muerto.</PawnDied>
 
@@ -152,7 +152,7 @@
   <MessageGaveBirth>{0} ha dado a luz.</MessageGaveBirth>
 
   <!-- EN: {0} has named {1} {2} after being nuzzled. -->
-  <MessageNuzzledPawnGaveNameTo>{0} ha nombrado a {1} {2} luego de ser acariciado.</MessageNuzzledPawnGaveNameTo>
+  <MessageNuzzledPawnGaveNameTo>{0} ha nombrado a {1}, {2}, luego de ser acariciado(a).</MessageNuzzledPawnGaveNameTo>
 
   <!-- EN: No handler can tame {0} (requires level {1} in {2}, best handler {3} has {4}). -->
   <MessageNoHandlerSkilledEnough>Ningún entrenador puede domesticar este(a) {0} (requiere nivel {1} en {2} y el mejor entrenador es {3} con {4}).</MessageNoHandlerSkilledEnough>
@@ -508,8 +508,10 @@
   <!-- EN: {0} is hunting {1} for food! -->
   <MessagePredatorHuntingPlayerAnimal>¡{0} está cazando a {1} para alimentarse!</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken>La resistencia del prisionero {0} ha sido destruida por {1}. Los intentos de reclutamiento comenzarán</MessagePrisonerResistanceBroken>
+  <!-- EN: Prisoner {0}'s resistance has been broken by {1}. -->
+  <MessagePrisonerResistanceBroken>La resistencia del prisionero {0} ha sido destruida por {1}.</MessagePrisonerResistanceBroken>
+  <!-- EN: Recruitment attempts will begin. -->
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Los intentos de reclutamiento comenzarán</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Disable all mods before using this tool. -->
   <MessageDisableModsBeforeCleaningTranslationFiles>Desactivar todos los mods antes de usar esta herramienta.</MessageDisableModsBeforeCleaningTranslationFiles>
