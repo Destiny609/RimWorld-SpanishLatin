@@ -68,7 +68,7 @@
   <!-- EN: Loading assets -->
   <LoadingAssets>Cargando activos</LoadingAssets>
   <!-- EN: Initializing -->
-  <Initializing>Iniciando</Initializing>
+  <Initializing>Inicializando</Initializing>
   <!-- EN: Loading world -->
   <LoadingWorld>Cargando planeta</LoadingWorld>
   <!-- EN: Loading map -->
@@ -96,7 +96,7 @@
   <!-- EN: Please enter a name. -->
   <NeedAName>Escriba un nombre</NeedAName>
   <!-- EN: Loading -->
-  <LoadingLongEvent>Cargando...</LoadingLongEvent>
+  <LoadingLongEvent>Cargando</LoadingLongEvent>
   <!-- EN: Saving -->
   <SavingLongEvent>Guardando</SavingLongEvent>
   <!-- EN: (Permadeath) -->
@@ -110,7 +110,7 @@
   <!-- EN: Save data is in an unknown format and almost certainly will not load properly. -->
   <SaveIsUnknownFormat>Esta partida está en un formato desconocido y es casi seguro que no va a cargar apropiadamente.</SaveIsUnknownFormat>
   <!-- EN: There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information. -->
-  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}</ProblemSavingFile>
+  <ProblemSavingFile>Hubo un problema guardando el archivo {0}:\n\n{1}\n\nConsulte el log de errores para obtener más información.</ProblemSavingFile>
   <!-- EN: Load anyway -->
   <LoadAnyway>Cargar de todos modos</LoadAnyway>
   <!-- EN: Load mod list from save -->
@@ -149,8 +149,8 @@
   <ZoneGainsName>Esta área ahora se llama {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
-  <!-- EN: This person's nickname is now {0}. [PAWN_possessive] title is {1}. -->
-  <PawnGainsName>El nuevo apodo de este colono es {0}.</PawnGainsName>
+  <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
+  <PawnGainsName>El nuevo apodo de este colono es {0}. {PAWN_possessive} titulo es {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>El nombre del animal ahora es {0}.</AnimalGainsName>
 
@@ -234,7 +234,7 @@
   <!-- EN: SUSPENDED -->
   <SuspendedAllCaps>SUSPENDIDO</SuspendedAllCaps>
   <!-- EN: Repeat: -->
-  <RepeatCount>Repetir: {0}</RepeatCount>
+  <RepeatCount>Repetir: </RepeatCount>
   <!-- EN: Forever -->
   <Forever>Para siempre</Forever>
   <!-- EN: Details -->
@@ -250,7 +250,7 @@
   <!-- EN: Allowed {0} skill: -->
   <AllowedSkillRange>Hab. de {0} mínima</AllowedSkillRange>
   <!-- EN: incompatible -->
-  <IncompatibleLower>Incompatible</IncompatibleLower>
+  <IncompatibleLower>incompatible</IncompatibleLower>
   <!-- EN: Any worker -->
   <AnyWorker>Cualquier trabajador</AnyWorker>
   <!-- EN: Unlimited -->
@@ -267,9 +267,9 @@
   <!-- EN: Requires {0} nutrition -->
   <BillRequiresNutrition>Requiere {0} de nutrición</BillRequiresNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
-  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán 20x la cantidad usual.</BillRequiresMayVary>
+  <BillRequiresMayVary>Nota: Los ingredientes de bajo volúmen requerirán {0}x la cantidad usual.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
-  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/20 parte de lo que sería un ingrediente normal. Por lo tanto, requerirás 20x la cantidad usual.</ThisIsSmallVolume>
+  <ThisIsSmallVolume>Este es un ingrediente de bajo volúmen. Significa que cada 'unidad' será tan solo 1/{0} parte de lo que sería un ingrediente normal. Por lo tanto, requerirás {0}x la cantidad usual.</ThisIsSmallVolume>
   <!-- EN: ingredients -->
   <UsableIngredients>ingredientes</UsableIngredients>
   <!-- EN: To {0} -->
@@ -301,7 +301,7 @@
   <!-- EN: Armor penetration -->
   <ArmorPenetration>Penetración de blindaje</ArmorPenetration>
   <!-- EN: Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor. -->
-  <ArmorPenetrationExplanation>La penetración de blindaje es la cantidad de blindaje que esta arma ignorará cada vez que golpee al objetivo.\n\nSi la penetración de blindaje es mayor que la armadura del objetivo, es como si el objetivo no estuviera blindado. De lo contrario, la penetración de armadura se resta de la armadura del objetivo.</ArmorPenetrationExplanation>
+  <ArmorPenetrationExplanation>La penetración de blindaje es la cantidad de blindaje que esta arma traspasará cada vez que golpee al objetivo.\n\nSi la penetración de blindaje es mayor que la armadura del objetivo, es como si el objetivo no estuviera blindado. De lo contrario, la penetración de armadura se resta de la armadura del objetivo.</ArmorPenetrationExplanation>
   <!-- EN: Accuracy -->
   <Accuracy>Precisión</Accuracy>
   <!-- EN: Burst shot count -->
@@ -334,6 +334,10 @@
   <GrowingTime>Tiempo</GrowingTime>
   <!-- EN: Harvest yield -->
   <HarvestYield>Rendimiento de la cosecha</HarvestYield>
+  <!-- EN: Min growth temperature -->
+  <MinGrowthTemperature>Temperatura mínima de crecimiento</MinGrowthTemperature>
+  <!-- EN: Max growth temperature -->
+  <MaxGrowthTemperature>Temperatura máxima de crecimiento</MaxGrowthTemperature>
   <!-- EN: Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth. -->
   <GrowingTimeDesc>Las plantas solamente crecen durante una parte del día y bajo iluminación. Esta estadística mide el tiempo de crecimiento que la planta necesita para llegar a su tamaño máximo. El tiempo real de crecimiento normalmente sería del doble. Las bajas temperaturas ralentizarán el crecimiento de las plantas.</GrowingTimeDesc>
   <!-- EN: days -->
@@ -422,7 +426,7 @@
   <NuzzleIntervalExplanation>Con qué frecuencia un animal acaricia a los colonos amigables con el hocico, en promedio.\n\nEl acariciar con el hocico es un comportamiento compartido por muchas especies de animales, donde el animal presiona la nariz o el hocico contra un amigo como signo de afecto. La mayoría de los humanos encuentran esto lindo y los dejará de buen humor por un período de tiempo.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Oportunidad de venganza por el daño</HarmedRevengeChance>
-  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeing revenge, attack it from rifle range with a slow-firing weapon. -->
+  <!-- EN: The chance this creature seeks revenge upon being harmed by an attacker at rifle range.\n\nThis chance increases if the attacker is closer. If attacked at very close range, the chance is three times greater.\n\nThis chance is applied each time damage is taken, so slower-firing, higher-damage weapons are less likely to trigger it.\n\nTo minimize the chance of a creature seeking revenge, attack it from rifle range with a slow-firing weapon. -->
   <HarmedRevengeChanceExplanation>La posibilidad de que esta criatura busque venganza por haber sido dañada por un atacante a tiro de fusil.\n\nEsta probabilidad aumenta si el atacante está más cerca. Si es atacado a muy corta distancia, la probabilidad es tres veces mayor.\n\nEsta posibilidad se aplica cada vez que se produce un daño, por lo que es menos probable que las armas que disparan más lentamente y causan más daño lo activen.\n\nPara minimizar la posibilidad de que una criatura vea venganza, ataca desde el campo de tiro con un arma de fuego lento.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>La posibilidad de venganza en un fracaso domado</TameFailedRevengeChance>
@@ -430,6 +434,18 @@
   <TerrainRequirement>Requisito de terreno</TerrainRequirement>
   <!-- EN: Supports -->
   <Supports>Soportes</Supports>
+  <!-- EN: Trap armor penetration -->
+  <TrapArmorPenetration>Penetración de la armadura en la trampa</TrapArmorPenetration>
+  <!-- EN: Rearm cost -->
+  <RearmCost>Costo del rearme</RearmCost>
+  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <RearmCostExplanation>Recursos necesarios para recargar esta torreta (afectada por la dificultad).</RearmCostExplanation>
+  <!-- EN: Shots before rearm -->
+  <ShotsBeforeRearm>Disparos antes del recargue</ShotsBeforeRearm>
+  <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
+  <ShotsBeforeRearmExplanation>Cuántos disparos puede disparar esta torreta antes de que tenga que ser recargada.</ShotsBeforeRearmExplanation>
+  <!-- EN: Power consumption -->
+  <PowerConsumption>Consumo de energía</PowerConsumption>
 
   <!-- Trade -->
   <!-- EN: Positive numbers buy.\nNegative numbers sell. -->
@@ -464,10 +480,10 @@
   <TraderWillNotTrade>El comerciante no desea comerciar con este objeto.</TraderWillNotTrade>
   <!-- EN: Negotiator -->
   <Negotiator>Negociador</Negotiator>
-  <!-- EN: Your negotiator {0} cannot talk properly because of poor health. -->
-  <NegotiatorTalkingImpaired>{0}, tu negociador no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
-  <!-- EN: Your negotiator {0} cannot hear properly because of poor health. -->
-  <NegotiatorHearingImpaired>Tu negociador {0} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot talk properly because of poor health. -->
+  <NegotiatorTalkingImpaired>Tu negociador {1_labelShort} no puede hablar bien debido a un problema de salud.\n\nEsto afectará los negativamente los precios.\n\nConsidera usar un negociador más saludable.</NegotiatorTalkingImpaired>
+  <!-- EN: Your negotiator {1_labelShort} cannot hear properly because of poor health. -->
+  <NegotiatorHearingImpaired>Tu negociador {1_labelShort} no puede escuchar correctamente debido a su mala salud.</NegotiatorHearingImpaired>
   <!-- EN: This will affect trade prices.\n\nConsider using a healthier negotiator. -->
   <NegotiatorCapacityImpaired>Esto afectará los precios del comercio.\n\nConsidere usar un negociador más saludable.</NegotiatorCapacityImpaired>
   <!-- EN: Trader has insufficient silver to fully cover this transaction.  Proceed anyways? -->
@@ -517,13 +533,13 @@
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>Debes asignar al menos un colono consciente.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
-  <CaravanCouldNotFindExitSpot>No se pudo encontrar ninguna dirección de salida válida.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindExitSpot>La ubicación de salida elegida ({0}) es inaccesible.</CaravanCouldNotFindExitSpot>
   <!-- EN: Could not find any valid packing spot. Make sure that the chosen exit location ({0}) is accessible. -->
   <CaravanCouldNotFindPackingSpot>La caravana no pudo encontrar el lugar donde empacar. Asegúrese de que la ubicación de salida elegida ({0}) es accesible.</CaravanCouldNotFindPackingSpot>
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
-  <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida.</CaravanCouldNotFindReachableExitSpot>
-  <!-- EN: {0} is unreachable by any of the assigned colonists. -->
-  <CaravanPawnIsUnreachable>Ninguno de los colonos asignados puede llegar hasta {0}.</CaravanPawnIsUnreachable>
+  <CaravanCouldNotFindReachableExitSpot>Peligro: algunos de los colonos asignados son incapaces de llegar al lugar de salida ({0}).</CaravanCouldNotFindReachableExitSpot>
+  <!-- EN: {1_labelShort} is unreachable by any of the assigned colonists. -->
+  <CaravanPawnIsUnreachable>{1_labelShort} es inalcanzable para cualquiera de los colonos asignados..</CaravanPawnIsUnreachable>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Ninguno de los colonos asignados puede llegar hasta el/la {0}.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -542,8 +558,8 @@
   <InfiniteDaysWorthOfFoodInfo>Nunca se quedará sin comida</InfiniteDaysWorthOfFoodInfo>
   <!-- EN: The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster -->
   <DaysWorthOfFoodTooltip>Un número de días aproximado antes de que la caravana se quede sin comida.\n\nÉsto toma en cuenta tanto la comida para humanos como para animales y te muestra el peor escenario posible. Ésto significa que después de esta cantidad de días, al menos una persona o animal se habrá quedado sin comida.</DaysWorthOfFoodTooltip>
-  <!-- EN: \n(only the first waypoint is taken into account) -->
-  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>\n(sólo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <!-- EN: (only the first waypoint is taken into account) -->
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(sólo se tiene en cuenta el primer punto intermedio)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Tu caravana tiene tan sólo {0} días de comida y se pondrá hambrienta muy rápidamente.\n\n¿Estás seguro que quieres formar esta caravana?</DaysWorthOfFoodWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
@@ -582,6 +598,8 @@
   <MassCapacity>Capacidad de peso</MassCapacity>
   <!-- EN: Mass -->
   <Mass>Peso</Mass>
+  <!-- EN: Caravan mass -->
+  <CaravanMass>Peso de la caravana</CaravanMass>
   <!-- EN: Equipment and apparel mass -->
   <EquipmentAndApparelMass>Peso del equipo y la vestimenta</EquipmentAndApparelMass>
   <!-- EN: Inventory mass -->
@@ -613,19 +631,19 @@
   <!-- EN: Animals can graze -->
   <AnimalsCanGraze>Los animales pueden pastar</AnimalsCanGraze>
   <!-- EN: (for {0} more days) -->
-  <PossibleToGrazeFor>(por {0} mas días)</PossibleToGrazeFor>
+  <PossibleToGrazeFor>(por {0} días mas)</PossibleToGrazeFor>
   <!-- EN: (forever) -->
   <PossibleToGrazeForever>(siempre)</PossibleToGrazeForever>
   <!-- EN: ({0}) -->
   <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
   <!-- EN: (too cold for {0} more days) -->
-  <CantGrazeBecauseOfTemp>(demasiado frío para {0} mas días)</CantGrazeBecauseOfTemp>
+  <CantGrazeBecauseOfTemp>(demasiado frío para {0} días mas)</CantGrazeBecauseOfTemp>
   <!-- EN: Total nutrition -->
   <TotalNutrition>Nutrición total</TotalNutrition>
   <!-- EN: Not moving -->
   <CaravanNotMoving>No se mueve</CaravanNotMoving>
   <!-- EN: Foraged nutrition per day -->
-  <ForagedNutritionPerDay>Nutrición forrajera por día</ForagedNutritionPerDay>
+  <ForagedNutritionPerDay>Nutrición por día con forraje</ForagedNutritionPerDay>
   <!-- EN: Faction type -->
   <FactionType>Tipo de facción</FactionType>
   <!-- EN: Total body size -->
@@ -643,11 +661,11 @@
   <!-- EN: Load {0} -->
   <LoadTransporters>Cargar {0}</LoadTransporters>
   <!-- EN: The assigned people and items are too heavy for the transport pods. -->
-  <TooBigTransportersMassUsage>Las personas y objetos asignadas son demasiado pesados para las cápsulas de transporte.</TooBigTransportersMassUsage>
+  <TooBigTransportersMassUsage>Las personas y objetos asignados son demasiado pesados para las cápsulas de transporte.</TooBigTransportersMassUsage>
   <!-- EN: You can't send empty transport pods. -->
   <CantSendEmptyTransportPods>No puedes enviar una cápsula de transporte vacía.</CantSendEmptyTransportPods>
-  <!-- EN: {0} can't reach the transport pods. -->
-  <PawnCantReachTransporters>{0} no puede llegar hasta las cápsulas de transporte.</PawnCantReachTransporters>
+  <!-- EN: {1_labelShort} can't reach the transport pods. -->
+  <PawnCantReachTransporters>{1_labelShort} no puede llegar hasta las cápsulas de transporte.</PawnCantReachTransporters>
   <!-- EN: There is no path between the transport pods and the {0}. -->
   <TransporterItemIsUnreachableSingle>No hay camino disponible entre las cápsulas de transporte y el/la {0}.</TransporterItemIsUnreachableSingle>
   <!-- EN: There is no path between the transport pods and {0}x {1}. -->
@@ -702,6 +720,8 @@
   <DeleteDrugPolicy>Borrar política...</DeleteDrugPolicy>
   <!-- EN: Drugs policy is in use by {0}. -->
   <DrugPolicyInUse>Política en uso por {0}.</DrugPolicyInUse>
+  <!-- EN: Food restriction is in use by {0}. -->
+  <FoodRestrictionInUse>La restricción alimentaria es utilizada por {0}.</FoodRestrictionInUse>
   <!-- EN: Social drugs -->
   <SocialDrugs>Drogas sociales</SocialDrugs>
   <!-- EN: No drugs -->
@@ -723,7 +743,7 @@
   <!-- EN: Only if mood below -->
   <MoodThresholdColumnLabel>Humor por debajo de</MoodThresholdColumnLabel>
   <!-- EN: Only if recreation below -->
-  <JoyThresholdColumnLabel>Humor por encima de</JoyThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Diversión por debajo de</JoyThresholdColumnLabel>
   <!-- EN: Take to inventory -->
   <TakeToInventoryColumnLabel>Cargar al inventario</TakeToInventoryColumnLabel>
   <!-- EN: (no drugs) -->
@@ -757,15 +777,39 @@
   <!-- EN: Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met. -->
   <DrugUsageTipScheduled>Agendada\n\nUsar esta droga con un horario específico, cuando se cumplan las condiciones.</DrugUsageTipScheduled>
 
+  <!-- Food restriction management -->
+  <!-- EN: Food restriction -->
+  <FoodRestriction>Restric. de alimentos</FoodRestriction>
+  <!-- EN: Lavish -->
+  <FoodRestrictionLavish>Despreocupado</FoodRestrictionLavish>
+  <!-- EN: Fine -->
+  <FoodRestrictionFine>Bien</FoodRestrictionFine>
+  <!-- EN: Simple -->
+  <FoodRestrictionSimple>Simple</FoodRestrictionSimple>
+  <!-- EN: Paste -->
+  <FoodRestrictionPaste>Pasta</FoodRestrictionPaste>
+  <!-- EN: Raw -->
+  <FoodRestrictionRaw>Crudo</FoodRestrictionRaw>
+  <!-- EN: Nothing -->
+  <FoodRestrictionNothing>Nada</FoodRestrictionNothing>
+  <!-- EN: Select food restriction -->
+  <SelectFoodRestriction>Seleccione el menu</SelectFoodRestriction>
+  <!-- EN: New food restriction -->
+  <NewFoodRestriction>Nuevo menu</NewFoodRestriction>
+  <!-- EN: Delete food restriction -->
+  <DeleteFoodRestriction>Eliminar el menu</DeleteFoodRestriction>
+  <!-- EN: No food restriction selected -->
+  <NoFoodRestrictionSelected>No se ha seleccionado ninguna restricción alimentaria</NoFoodRestrictionSelected>
+
   <!-- Medical settings -->
   <!-- EN: Defaults -->
-  <MedGroupDefaults>Predeterminado</MedGroupDefaults>
+  <MedGroupDefaults>Predeter.</MedGroupDefaults>
   <!-- EN: Colonist -->
   <MedGroupColonist>Colono</MedGroupColonist>
   <!-- EN: Imprisoned colonist -->
   <MedGroupImprisonedColonist>Colono encarcelado</MedGroupImprisonedColonist>
   <!-- EN: Colony animal -->
-  <MedGroupColonyAnimal>Animal de la colonia</MedGroupColonyAnimal>
+  <MedGroupColonyAnimal>Animal de colonia</MedGroupColonyAnimal>
   <!-- EN: Neutral animal -->
   <MedGroupNeutralAnimal>Animal neutral</MedGroupNeutralAnimal>
   <!-- EN: Neutral faction -->
@@ -775,7 +819,7 @@
   
   <!-- Growing -->
   <!-- EN: {0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown. -->
-  <NoGrowerCanPlant>El/La {0} requiere {1} de habilidad en agricultura para sembrarse.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que no se sembrará ésto.</NoGrowerCanPlant>
+  <NoGrowerCanPlant>El/La {0} requiere {1} de habilidad en agricultura para sembrarse.\n\nNinguno de tus agricultores conscientes posee esta habilidad, así que esta planta no se sembrará.</NoGrowerCanPlant>
 
   <!-- Abandon home -->
   <!-- EN: Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0} -->
@@ -790,20 +834,20 @@
   <ConfirmMoveAutoJoinableCaravan>Algunos animales o prisioneros están tratando de unirse a esta caravana. Si lo mueves, ya no podrán hacerlo.\n\nAnimales, prisioneros y colonos derribados dejados en un mapa sin colonos no derribados se consideran abandonados y pueden ser capturados por los enemigos.\n\n¿Estás seguro de que quieres mover tu caravana?</ConfirmMoveAutoJoinableCaravan>
   
   <!-- Abandon pawn -->
-  <!-- EN: Do you really want to banish {0}? -->
-  <ConfirmBanishPawnDialog>¿De verdad quieres desterrar a {0}?</ConfirmBanishPawnDialog>
-  <!-- EN: {0} will most likely die. -->
-  <ConfirmBanishPawnDialog_LeftToDie>{0} muy probablemente morirá.</ConfirmBanishPawnDialog_LeftToDie>
-  <!-- EN: {0} will take the following items with [PAWN_objective]: -->
-  <ConfirmBanishPawnDialog_Items>{0} al marcharse, tomará los siguientes artículos con [PAWN_objective]:</ConfirmBanishPawnDialog_Items>
+  <!-- EN: Do you really want to banish {1_label}? -->
+  <ConfirmBanishPawnDialog>¿De verdad quieres desterrar a {1_label}?</ConfirmBanishPawnDialog>
+  <!-- EN: {1_labelShort} will most likely die. -->
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} muy probablemente morirá.</ConfirmBanishPawnDialog_LeftToDie>
+  <!-- EN: {1_labelShort} will take the following items with {1_objective}: -->
+  <ConfirmBanishPawnDialog_Items>{1_labelShort} al marcharse, tomará los siguientes artículos con [1_objective]:</ConfirmBanishPawnDialog_Items>
   <!-- EN: All colonists will get the following thoughts: -->
   <ConfirmBanishPawnDialog_AllColonistsThoughts>Todos los colonos tendrán los siguientes pensamientos:</ConfirmBanishPawnDialog_AllColonistsThoughts>
-  <!-- EN: Banishing {0} will cause the following people to get the following thoughts: -->
-  <ConfirmBanishPawnDialog_IndividualThoughts>Desterrar a {0} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmBanishPawnDialog_IndividualThoughts>
+  <!-- EN: Banishing {1_labelShort} will cause the following people to get the following thoughts: -->
+  <ConfirmBanishPawnDialog_IndividualThoughts>Desterrar a {1_labelShort} hará que las siguientes personas tengan los siguientes pensamientos:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {0} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no ha sido cargado por completo. Falta {0}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
+  <ConfirmSendNotCompletelyLoadedPods>El grupo de cápsulas no está completamente cargado. Falta {1_labelShort}. ¿Lanzar de todos modos?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
@@ -814,5 +858,9 @@
   <ConfirmCleanupTranslationFiles>¿Está seguro de que desea limpiar todos los archivos de traducción para el idioma {0}?\n\nEsto se hará - Agregar marcadores de posición para traducciones con clave que faltan, traducciones con inyección de desfase y retroalimentación\n - Agregar o actualizar comentarios que contengan el texto original no traducido\n  - Mover todas las traducciones con clave y con inyección de desfase a los archivos XML apropiados\n  - Aplicar formato automático a todos los archivos XML\n  - Actualizar nombres de definiciones compatibles con la retroalimentación\n  - Eliminar todos los comentarios XML existentes (excepto en las inyecciones de lista completa)\n\nLos archivos no XML no se eliminarán ni modificarán.\n\nRecuerde reiniciar el juego después de modificar los archivos de idioma antes de ejecutar esta herramienta para recargar todos los datos.\n\nAsegúrese de realizar una copia de seguridad de todos los archivos de traducción antes de utilizar esta herramienta.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Sí, tengo una copia de seguridad</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <!-- EN: The caravan will be immobile if you send the pods to an empty tile. Continue anyway? -->
+  <TransportersCaravanWillBeImmobile>La caravana estará inmóvil si envías las cápsulas a una baldosa vacía. ¿Continuar de todos modos?</TransportersCaravanWillBeImmobile>
 
 </LanguageData>

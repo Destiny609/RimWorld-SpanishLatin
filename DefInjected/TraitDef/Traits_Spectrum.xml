@@ -8,7 +8,7 @@
   <!-- EN: pretty -->
   <Beauty.degreeDatas.pretty.label>belleza</Beauty.degreeDatas.pretty.label>
   <!-- EN: [PAWN_nameDef] has a pretty face, which predisposes people to like [PAWN_objective]. -->
-  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] es excepcionalmente bello(a). Eso le hace popular.</Beauty.degreeDatas.pretty.description>
+  <Beauty.degreeDatas.pretty.description>[PAWN_nameDef] es excepcionalmente bello(a). Eso [PAWN_objective] hace popular.</Beauty.degreeDatas.pretty.description>
   <!-- EN: ugly -->
   <Beauty.degreeDatas.ugly.label>fealdad</Beauty.degreeDatas.ugly.label>
   <!-- EN: [PAWN_nameDef] is somewhat ugly. This subtly repels others during social interactions. -->
@@ -41,7 +41,7 @@
   <Immunity.degreeDatas.sickly.description>[PAWN_nameDef] tiene un sistema inmunológico horrible. [PAWN_pronoun] se enferma con más frecuencia de lo normal, con frecuencia con enfermedades que nadie en la colonia ha padecido.</Immunity.degreeDatas.sickly.description>
   
   <!-- EN: industrious -->
-  <Industriousness.degreeDatas.industrious.label>trabajador</Industriousness.degreeDatas.industrious.label>
+  <Industriousness.degreeDatas.industrious.label>diligente</Industriousness.degreeDatas.industrious.label>
   <!-- EN: [PAWN_nameDef] has an easy time staying on-task and focused, and gets things done much faster than the average person. -->
   <Industriousness.degreeDatas.industrious.description>A [PAWN_nameDef] le parece fácil mantenerse concentrado en el trabajo y hacer las cosas más rapido que a la mayoría.</Industriousness.degreeDatas.industrious.description>
   <!-- EN: hard worker -->
@@ -64,7 +64,7 @@
   <!-- EN: optimist -->
   <NaturalMood.degreeDatas.optimist.label>optimista</NaturalMood.degreeDatas.optimist.label>
   <!-- EN: [PAWN_nameDef] is naturally optimistic about life. It's hard to get [PAWN_objective] down. -->
-  <NaturalMood.degreeDatas.optimist.description>[PAWN_nameDef] tiene una inclinación natural hacia el optimismo. Es difícil entristecerle.</NaturalMood.degreeDatas.optimist.description>
+  <NaturalMood.degreeDatas.optimist.description>[PAWN_nameDef] tiene una inclinación natural hacia el optimismo. Es difícil entristecer[PAWN_objective].</NaturalMood.degreeDatas.optimist.description>
   <!-- EN: pessimist -->
   <NaturalMood.degreeDatas.pessimist.label>pesimista</NaturalMood.degreeDatas.pessimist.label>
   <!-- EN: [PAWN_nameDef] tends to look on the bad side of life. -->

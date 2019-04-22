@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: air conditioning -->
-  <AirConditioning.label>aire Acondicionado</AirConditioning.label>
+  <AirConditioning.label>aire acondicionado</AirConditioning.label>
   <!-- EN: Build coolers to make people comfortable in hot weather, or to construct freezers for storing perishable goods. -->
-  <AirConditioning.description>Construye sistemas de aire acondicionado, que termiten calentar o refrigerar habitaciones cerradas.</AirConditioning.description>
+  <AirConditioning.description>Construya refrigeradores para que las personas se sientan cómodas en climas cálidos, o construya congeladores para almacenar productos perecederos.</AirConditioning.description>
   
   <!-- EN: autodoor -->
   <Autodoors.label>puertas automáticas</Autodoors.label>
@@ -14,7 +14,7 @@
   <!-- EN: battery -->
   <Batteries.label>baterías</Batteries.label>
   <!-- EN: Build batteries for storing electricity. -->
-  <Batteries.description>Te permite construir baterías, que te permiten alamacenar electricidad.</Batteries.description>
+  <Batteries.description>Te permite construir baterías para almacenar electricidad.</Batteries.description>
   
   <!-- EN: biofuel refining -->
   <BiofuelRefining.label>refinerías de biocombustibles</BiofuelRefining.label>
@@ -23,8 +23,8 @@
   
   <!-- EN: blowback operation -->
   <BlowbackOperation.label>manejo del retroceso</BlowbackOperation.label>
-  <!-- EN: Craft low-power blowback-operated guns like autopistols, machine pistols, and heavy SMGs. -->
-  <BlowbackOperation.description>Fabrica armas simples semiautomáticas y automáticas como pistolas automáticas, pistolas ametralladoras y SMG pesados.</BlowbackOperation.description>
+  <!-- EN: Craft low-power blowback-operated guns like autopistols and machine pistols. -->
+  <BlowbackOperation.description>Fabrica armas simples semiautomáticas y automáticas como pistolas automáticas y ametralladoras.</BlowbackOperation.description>
   
   <!-- EN: electricity -->
   <Electricity.label>electricidad</Electricity.label>
@@ -34,7 +34,7 @@
   <!-- EN: firefoam -->
   <Firefoam.label>espuma cortafuegos</Firefoam.label>
   <!-- EN: Construct firefoam poppers, automatic fire-safety devices which spread fire-retardant foam in response to encroaching flames. -->
-  <Firefoam.description>Permite la construcción de los dispensadores de espuma cortafuegos, objetos que automáticamente dispersan espuma cortafuegos al detectar la presencia de un incendio o ser activados manualmente.</Firefoam.description>
+  <Firefoam.description>Construya cortafuegos, dispositivos automáticos de seguridad contra incendios que propagan espuma ignífuga en respuesta a las llamas envolventes.</Firefoam.description>
   
   <!-- EN: flak armor -->
   <FlakArmor.label>ropa antibalas</FlakArmor.label>
@@ -43,8 +43,8 @@
   
   <!-- EN: gas operation -->
   <GasOperation.label>manejo de gas</GasOperation.label>
-  <!-- EN: Craft high-power guns like chain shotguns and LMGs. -->
-  <GasOperation.description>Diseñe pistolas automáticas y semiautomáticas más avanzadas, como escopetas de cadena y LMG.</GasOperation.description>
+  <!-- EN: Craft high-power guns like chain shotguns, LMGs, and heavy SMGs. -->
+  <GasOperation.description>Fabrica pistolas de alta potencia como escopetas de cadena, LMGs y SMGs pesadas.</GasOperation.description>
   
   <!-- EN: geothermal power -->
   <GeothermalPower.label>energía geotérmica</GeothermalPower.label>
@@ -74,7 +74,7 @@
   <!-- EN: machining -->
   <Machining.label>maquinado</Machining.label>
   <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to disassemble dead mechanoids for resources. -->
-  <Machining.description>Te permite construir mesas de maquinado para desmontar mecanoides o fabricar armas de fuego</Machining.description>
+  <Machining.description>Construye mesas de mecanizado para fabricar pistolas, granadas, armaduras antiaéreas y desarmar mecanoides muertos para obtener recursos.</Machining.description>
   
   <!-- EN: mortars -->
   <Mortars.label>morteros</Mortars.label>
@@ -84,12 +84,12 @@
   <!-- EN: nutrient paste -->
   <NutrientPaste.label>pasta nutricional</NutrientPaste.label>
   <!-- EN: Build nutrient paste dispensers which efficiently produce edible meals from raw nutritive feedstocks, while requiring no labor at all. -->
-  <NutrientPaste.description>Construye dispensadores de pasta nutricional, que producen comida eficientemente a partir de materia prima cruda.</NutrientPaste.description>
+  <NutrientPaste.description>Construye dispensadores de pasta nutricional que producen comida eficientemente a partir de materia prima cruda, sin requerir mano de obra.</NutrientPaste.description>
   
   <!-- EN: packaged survival meal -->
   <PackagedSurvivalMeal.label>comida de supervivencia</PackagedSurvivalMeal.label>
   <!-- EN: Produce packaged survival meals which never go bad. Great for traveling. -->
-  <PackagedSurvivalMeal.description>Aprenda a producir comidas de supervivencia empaquetadas, un alimento preservado y sellado que nunca se pudre. Genial para viajar.</PackagedSurvivalMeal.description>
+  <PackagedSurvivalMeal.description>Producir comidas empaquetadas de supervivencia que nunca se estropeen. Genial para viajar.</PackagedSurvivalMeal.description>
   
   <!-- EN: prosthetics -->
   <Prosthetics.label>prótesis</Prosthetics.label>
@@ -109,7 +109,7 @@
   <!-- EN: sterile materials -->
   <SterileMaterials.label>material estéril</SterileMaterials.label>
   <!-- EN: Construct sterile tiles to make cleanrooms for safer and more effective medical treatment, research, and cooking. -->
-  <SterileMaterials.description>Construir baldosas estériles para hacer salas limpias para un tratamiento médico más eficaz.</SterileMaterials.description>
+  <SterileMaterials.description>Construya baldosas estériles para hacer salas limpias más seguras y efectivas para el tratamiento médico, la investigación y la cocina.</SterileMaterials.description>
   
   <!-- EN: tube television -->
   <TubeTelevision.label>televisión de rayos catódicos</TubeTelevision.label>

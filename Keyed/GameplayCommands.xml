@@ -4,9 +4,11 @@
   <!-- Forbid -->
   <!-- EN: Forbid -->
   <CommandForbid>Prohibir</CommandForbid>
-  <!-- EN: Forbidden - colonists will not interact with this. -->
+  <!-- EN: Allow -->
+  <CommandAllow>Permitir</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Prohibido - Los colonos no interactuarán con ésto.</CommandForbiddenDesc>
-  <!-- EN: Not forbidden - colonists may interact with this. -->
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
   <CommandNotForbiddenDesc>No está prohibido - Los colonos podrán interactuar con ésto.</CommandNotForbiddenDesc>
 
   <!-- Power -->
@@ -36,11 +38,11 @@
   <!-- EN: Draft -->
   <CommandDraftLabel>Reclutar</CommandDraftLabel>
   <!-- EN: Undraft -->
-  <CommandUndraftLabel>Licenciar</CommandUndraftLabel>
+  <CommandUndraftLabel>Des-reclutar</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Alterna el reclutamiento.\n\nLos colonos reclutados tomarán ordenes directas y lucharán. No trabajarán, comerán o descansarán.</CommandToggleDraftDesc>
-  <!-- EN: {0} cannot walk. -->
-  <IsIncapped>{0} está incapacitado(a).</IsIncapped>
+  <!-- EN: {1_labelShort} cannot walk. -->
+  <IsIncapped>{1_labelShort} no puede caminar.</IsIncapped>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Fuego a discreción</CommandFireAtWillLabel>
@@ -178,11 +180,11 @@
   <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Prohibir el paso</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>Cuando una puerta es prohibida, los colonos y los aliados no la atravezarán. Ésto no afectará las interacciones de los enemigos o los animales con ésta.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Cuando una puerta es prohibida, los colonos y los aliados no la atravesarán. Ésto no afectará las interacciones de los enemigos o los animales con ésta.</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>Mantener abierta</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
-  <CommandToggleDoorHoldOpenDesc>Cuando se activa, los colonos no cerrarán la puerta al atravezarla.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Cuando se activa, los colonos no cerrarán la puerta al atravesarla.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
@@ -224,9 +226,11 @@
   
   <!-- Animal control -->
   <!-- EN: Release animals -->
-  <CommandReleaseAnimalsLabel>Enviar animal</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsLabel>Soltar animal</CommandReleaseAnimalsLabel>
   <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
-  <CommandReleaseAnimalsDesc>Cuando está activado, los animales adiestrados serán enviados a atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo cuidarán.</CommandReleaseAnimalsDesc>
+  <CommandReleaseAnimalsDesc>Cuando está activado, los animales adiestrados serán soltados para atacar blancos distantes. Cuando está desactivado, permanecerán cerca de su amo y lo cuidarán.</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
+  <CommandReleaseAnimalsFail_NoAnimals>No hay animales disponibles.</CommandReleaseAnimalsFail_NoAnimals>
   
   <!-- Squad attack -->
   <!-- EN: Attack -->
@@ -436,9 +440,9 @@
 
   <!-- Pause caravan -->
   <!-- EN: Rest -->
-  <CommandPauseCaravan>Pausa</CommandPauseCaravan>
-  <!-- EN: Stop the caravan for a moment. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1}\n  - Sick people can rest in bedrolls -->
-  <CommandToggleCaravanPauseDesc>Detenga el movimiento de la caravana. Esto tiene las siguientes ventajas:\n\n  - Las personas pueden interactuar socialmente\n  - Forraje para la alimentación {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
+  <CommandPauseCaravan>Descansar</CommandPauseCaravan>
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
+  <CommandToggleCaravanPauseDesc>Detenga el movimiento de la caravana para descansar. Esto tiene las siguientes ventajas:\n\n  - Las personas pueden interactuar socialmente\n  - Forraje para la alimentación {0} veces más rápido\n  - Visibilidad multiplicada por {1}</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
   <!-- EN: Show what will buy -->

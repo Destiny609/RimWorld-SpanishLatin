@@ -3,9 +3,9 @@
 
   <!-- Main menu -->
   <!-- EN: Tutorial -->
-  <Tutorial>Aprender a jugar</Tutorial>
+  <Tutorial>Tutorial</Tutorial>
   <!-- EN: New colony -->
-  <NewColony>Fundar Colonia</NewColony>
+  <NewColony>Nueva colonia</NewColony>
   <!-- EN: Back to game -->
   <BackToGame>Volver al juego</BackToGame>
   <!-- EN: Review scenario -->
@@ -21,11 +21,11 @@
   <!-- EN: Save translation report -->
   <SaveTranslationReport>Guardar informe de traducción</SaveTranslationReport>
   <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>Generar informe de traducción</GeneratingTranslationReport>
+  <GeneratingTranslationReport>Generando informe de traducción</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Limpieza de archivos de traducción</CleanupTranslationFiles>
+  <CleanupTranslationFiles>Limpiar archivos de traducción</CleanupTranslationFiles>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Limpieza de los archivos de traducción</CleaningTranslationFiles>
+  <CleaningTranslationFiles>Limpiando archivos de traducción</CleaningTranslationFiles>
   <!-- EN: Credits -->
   <Credits>Créditos</Credits>
   <!-- EN: Quit to main menu -->
@@ -57,7 +57,7 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>Todas las traducciones de RimWorld están hechas por fans. Esta traducción hecha por fans fue creada por los siguientes excelentes voluntarios.</TranslationThanks>
+  <TranslationThanks>Todas las traducciones de RimWorld están hechas por fans. Esta traducción hecha por fans fue creada por los siguientes excelentes voluntarios\n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>Usted también puede contribuir. Haga clic a continuación para obtener más información (abre el navegador web).</TranslationHowToContribute>
   <!-- EN: Learn more -->
@@ -73,7 +73,7 @@
   <!-- EN: Generate -->
   <WorldGenerate>Generar planeta</WorldGenerate>
   <!-- EN: Save and finish -->
-  <WorldSaveAndFinish>Guardar y Finalizar</WorldSaveAndFinish>
+  <WorldSaveAndFinish>Guardar y finalizar</WorldSaveAndFinish>
   <!-- EN: Reset -->
   <Reset>Reiniciar</Reset>
   <!-- EN: Globe coverage -->
@@ -164,8 +164,10 @@
   <ModTargetVersion>Para la versión: {0}</ModTargetVersion>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Este mod no fué hecho para esta versión de Rimworld y probablemente no funcione correctamente.</ModNotMadeForThisVersion>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
+  <ModNotMadeForThisVersion_Newer>Este mod fue hecho para una versión más reciente de RimWorld que esta, y probablemente no funcionará correctamente.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs a well-formatted target version in About.xml. Like this: <targetVersion>{0}</targetVersion>. -->
-  <MessageModNeedsWellFormattedTargetVersion>Este mod necesita una versión objetivo con buen formato en About.xml. De esta forma: &lt;targetVersion>{0}&lt;/targetVersion>.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Este mod necesita una versión objetivo con buen formato en About.xml. De esta forma: {0}.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Drag to reorder -->
   <DragToReorder>Arrastra para ordenar</DragToReorder>
   
@@ -183,7 +185,7 @@
   
   <!-- Scenario editor -->
   <!-- EN: seed -->
-  <Seed>Semilla</Seed>
+  <Seed>semilla</Seed>
   <!-- EN: Load -->
   <Load>Cargar</Load>
   <!-- EN: edit mode -->
@@ -215,31 +217,31 @@
   <!-- EN: Difficulty -->
   <Difficulty>Dificultad</Difficulty>
   <!-- EN: Commitment mode -->
-  <CommitmentMode>Modo Compromiso</CommitmentMode>
+  <CommitmentMode>Modo comprometido</CommitmentMode>
   <!-- EN: Reload anytime mode -->
   <ReloadAnytimeMode>Recarga en cualquier momento</ReloadAnytimeMode>
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
-  <MustChoosePermadeath>Por favor, elija el modo de "Compromiso" o "Recarga en cualquier momento".</MustChoosePermadeath>
+  <MustChoosePermadeath>Por favor, elija el modo: "Comprometido" o "Recarga en cualquier momento".</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>Puede guardar y cargar el juego en cualquier momento.\n\n Esta no es una mala elección si todavía está aprendiendo el juego, si se ajusta a su estilo de juego personal o objetivos, si está utilizando mods que pueden dañar su juego, o si usted tiene la intención de autoaplicar el modo de compromiso.</ReloadAnytimeModeInfo>
-  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his parents got killed - loss and recovery is dramatic! -->
+  <ReloadAnytimeModeInfo>Puede guardar y cargar el juego en cualquier momento.\n\nEsta no es una mala elección si todavía está aprendiendo el juego, si se ajusta a su estilo de juego personal o objetivos, si está utilizando mods que pueden dañar su juego, o si usted tiene la intención de autoaplicar el modo de compromiso.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Sólo se puede guardar cuando se abandona el juego.\n\nDado que RimWorld es un generador de historias, incluso perder a todos menos a una persona no es el final del juego - es parte de la historia.  El juego está diseñado para permitir la recuperación después de las pérdidas.\n\nRepresentar estas terribles situaciones hace una historia tanto con tragedia como con triunfo.  Es la forma en que RimWorld fue diseñado para jugarse.\n\nHay una razón por la que Luke Skywalker no se retiró y se recuperó cuando sus padres murieron - ¡la pérdida y la recuperación son dramáticas!</PermadeathModeInfo>
   <!-- EN: Storyteller and difficulty can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>El narrador y la dificultad pueden ser cambiados en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>Narrador y dificultad pueden ser cambiados en cualquier momento.</CanChangeStorytellerSettingsDuringPlay>
   <!-- EN: Merciless mode -->
   <UnlockExtremeDifficulty>Modo despiadado</UnlockExtremeDifficulty>
   <!-- EN: Merciless mode is a special game mode where every challenge is turned up to extreme levels.\n\nMerciless mode unlocks automatically when you reach specific milestones. However, you can unlock it now.\n\nThis option is only recommended once you've played a high-difficulty game or two and want to have a good chance at dying despite your best efforts. -->
-  <ConfirmUnlockExtremeDifficulty>El modo despiadado es un modo de juego especial en el que cada desafío se eleva a niveles extremos.\n\nModo despiadado desbloquea automáticamente cuando se alcanzan hitos específicos. Sin embargo, puede desbloquearlo ahora. \n\nEsta opción sólo se recomienda una vez que ha jugado un juego de alta dificultad y quiere tener una buena oportunidad de morir a pesar de sus mejores esfuerzos.</ConfirmUnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>El modo despiadado es un modo de juego especial en el que cada desafío se eleva a niveles extremos.\n\nModo despiadado desbloquea automáticamente cuando se alcanzan hitos específicos. Sin embargo, puede desbloquearlo ahora.\n\nEsta opción sólo se recomienda una vez que ha jugado un juego de alta dificultad y quiere tener una buena oportunidad de morir a pesar de sus mejores esfuerzos.</ConfirmUnlockExtremeDifficulty>
 
-  <!-- Landing site select -->
-  <!-- EN: Select landing site -->
-  <SelectLandingSite>Selecciona un lugar de aterrizaje</SelectLandingSite>
+  <!-- Site select -->
+  <!-- EN: Select starting site -->
+  <SelectStartingSite>Seleccione el lugar de inicio</SelectStartingSite>
   <!-- EN: Select random site -->
-  <SelectRandomSite>Seleccionar un lugar al azar</SelectRandomSite>
+  <SelectRandomSite>Selec. un lugar al azar</SelectRandomSite>
   <!-- EN: Select site -->
   <SelectSite>Seleccionar lugar</SelectSite>
-  <!-- EN: Please select a landing site. -->
-  <MustSelectLandingSite>Por favor selecciona un sitio de aterrizaje.</MustSelectLandingSite>
+  <!-- EN: Please select a site. -->
+  <MustSelectStartingSite>Por favor, seleccione un sitio.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>No puedes aterrizar en este bioma: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
@@ -281,7 +283,7 @@
   <!-- EN: western coast -->
   <HasCoast3>Costa al oeste</HasCoast3>
   <!-- EN: caves -->
-  <HasCaves>cavernas</HasCaves>
+  <HasCaves>cuevas</HasCaves>
   <!-- EN: Faction base -->
   <FactionBase>Asentamiento de facción</FactionBase>
   <!-- EN: Stone types -->
@@ -303,7 +305,7 @@
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>Crea los personajes</CreateCharacters>
+  <CreateCharacters>Crear personajes</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>El nombre del personaje.\n\nEste solo se mostrará en ciertos menús.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
@@ -325,7 +327,7 @@
   <!-- EN: Skills -->
   <Skills>Habilidades</Skills>
   <!-- EN: none -->
-  <NoneLower>Ninguna</NoneLower>
+  <NoneLower>ninguno</NoneLower>
   <!-- EN: Adulthood -->
   <Adulthood>Adultez</Adulthood>
   <!-- EN: Childhood -->
@@ -333,13 +335,13 @@
   <!-- EN: Current -->
   <Current>Actual</Current>
   <!-- EN: male -->
-  <Male>Masculino</Male>
+  <Male>masculino</Male>
   <!-- EN: female -->
-  <Female>Femenino</Female>
+  <Female>femenino</Female>
   <!-- EN: male -->
-  <MaleAnimal>Macho</MaleAnimal>
+  <MaleAnimal>macho</MaleAnimal>
   <!-- EN: female -->
-  <FemaleAnimal>Hembra</FemaleAnimal>
+  <FemaleAnimal>hembra</FemaleAnimal>
   <!-- EN: Pain -->
   <Pain>Dolor</Pain>
   <!-- EN: Health -->
@@ -377,12 +379,12 @@
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->
-  <GeneratingWorld>Generando planeta</GeneratingWorld>
+  <GeneratingWorld>Generando mundo</GeneratingWorld>
   <!-- EN: Generating planet -->
   <GeneratingPlanet>Generando planeta</GeneratingPlanet>
   <!-- EN: Generating map -->
   <GeneratingMap>Generando mapa</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
-  <GeneratingMapForNewEncounter>Generando mapa de encuentro</GeneratingMapForNewEncounter>
+  <GeneratingMapForNewEncounter>Generando mapa para nuevo encuentro</GeneratingMapForNewEncounter>
 
 </LanguageData>

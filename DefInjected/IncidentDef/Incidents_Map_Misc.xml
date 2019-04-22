@@ -9,14 +9,14 @@
   <!-- EN: Ambrosia sprout -->
   <AmbrosiaSprout.letterLabel>Brote de ambrosia</AmbrosiaSprout.letterLabel>
   <!-- EN: A grove of the mysterious ambrosia bush has sprouted nearby! If you wait for the plants to grow, you'll be able to harvest the delicious, pleasurable, and slightly addictive fruit. -->
-  <AmbrosiaSprout.letterText>¡Unos arbustos de Ambrosia han brotado cerca! Si esperas que la planta crezca podrás cosechar la deliciosa, placentera, pero ligeramente adictiva fruta.</AmbrosiaSprout.letterText>
+  <AmbrosiaSprout.letterText>¡Unos arbustos de la misteriosa Ambrosia han brotado cerca! Si esperas que la planta crezca podrás cosechar la deliciosa, placentera, pero ligeramente adictiva fruta.</AmbrosiaSprout.letterText>
   
   <!-- EN: cold snap -->
   <ColdSnap.label>frente frío</ColdSnap.label>
   <!-- EN: Cold snap -->
   <ColdSnap.letterLabel>Frente frío</ColdSnap.letterLabel>
   <!-- EN: An unusual cold snap has set in.\n\nCold snaps can quickly kill by hypothermia. Be sure to build a heated space to survive, wear appropriate apparel, and try to harvest crops before they freeze and die. -->
-  <ColdSnap.letterText>Una ola de frío inusual ha comenzado.\n\nLas olas de frío pueden matar rápidamente por hipotermia. Asegúrese de construir un espacio con calefacción para sobrevivir, use ropa apropiada y trate de cosechar los cultivos antes de que se congelen y mueran.</ColdSnap.letterText>
+  <ColdSnap.letterText>Una ola de frío inusual ha comenzado.\n\nLas olas de frío pueden matar rápidamente por hipotermia. Asegúrate de construir un espacio con calefacción para sobrevivir, use ropa apropiada y trate de cosechar los cultivos antes de que se congelen y mueran.</ColdSnap.letterText>
   
   <!-- EN: crop blight -->
   <CropBlight.label>plaga agrícola</CropBlight.label>
@@ -29,21 +29,21 @@
   <!-- EN: Flashstorm -->
   <Flashstorm.letterLabel>Tormenta eléctrica</Flashstorm.letterLabel>
   <!-- EN: A freak localized flashstorm is striking a small area with lightning. This can cause massive fires. -->
-  <Flashstorm.letterText>Un elevado número de rayos caerá sobre esta región. Cuidado con los incendios.</Flashstorm.letterText>
+  <Flashstorm.letterText>Un elevado número de rayos caerá sobre esta región. Estos pueden causar incendios masivos.</Flashstorm.letterText>
   
   <!-- EN: heat wave -->
   <HeatWave.label>ola de calor</HeatWave.label>
   <!-- EN: Heat wave -->
   <HeatWave.letterLabel>Ola de calor</HeatWave.letterLabel>
   <!-- EN: An unusual heat wave has begun.\n\nHeat waves can kill quickly if people start getting heatstroke. Stay cool by building a cooler or getting deep under a mountain. -->
-  <HeatWave.letterText>Una inusual ola de calor ha comenzado. Ten cuidado con las posibles insolaciones.</HeatWave.letterText>
+  <HeatWave.letterText>Una ola de calor inusual ha comenzado.\n\nLas olas de calor pueden matar rápidamente si la gente comienza a sufrir insolación. Manténte fresco construyendo algun tipo de refrigeración o adentrándose bajo una montaña.</HeatWave.letterText>
   
   <!-- EN: herd migration -->
   <HerdMigration.label>manada migratoria</HerdMigration.label>
   <!-- EN: Animal migration: {0} -->
   <HerdMigration.letterLabel>Manada migratoria: {0}</HerdMigration.letterLabel>
   <!-- EN: A group of {0} is passing through the area.\n\nThey won't attack unless provoked. -->
-  <HerdMigration.letterText>Una gran manada de {0} esta pasando por el área. No atacaran a menos que los provoques.</HerdMigration.letterText>
+  <HerdMigration.letterText>Una gran manada de {0} esta pasando por el área.\n\nNo atacaran a menos que los provoques.</HerdMigration.letterText>
   
   <!-- EN: meteorite impact -->
   <MeteoriteImpact.label>impacto de meteoro</MeteoriteImpact.label>
@@ -66,24 +66,17 @@
   <!-- EN: chased refugee -->
   <RefugeeChased.label>refugiado perseguido</RefugeeChased.label>
   
-  <!-- EN: refugee pod crash -->
+  <!-- EN: transport pod crash -->
   <RefugeePodCrash.label>caída de cápsula con refugiado</RefugeePodCrash.label>
   
   <!-- EN: resource pod crash -->
   <ResourcePodCrash.label>cápsula de recursos</ResourcePodCrash.label>
   
   <!-- EN: self-tame -->
-  <SelfTame.label>Auto-domesticación</SelfTame.label>
+  <SelfTame.label>auto-domesticación</SelfTame.label>
   
   <!-- EN: short circuit -->
   <ShortCircuit.label>corto circuito</ShortCircuit.label>
-  
-  <!-- EN: stranger in black -->
-  <StrangerInBlackJoin.label>forastero de negro</StrangerInBlackJoin.label>
-  <!-- EN: Stranger in black -->
-  <StrangerInBlackJoin.letterLabel>forastero de negro</StrangerInBlackJoin.letterLabel>
-  <!-- EN: Sensing trouble, a mysterious stranger in black has arrived.\n\nWill [PAWN_pronoun] be able to set things right in these parts? -->
-  <StrangerInBlackJoin.letterText>Un misterioso forastero de negro ha llegado.\n\n¿Será capaz [PAWN_pronoun] de arreglar las cosas por aquí?</StrangerInBlackJoin.letterText>
   
   <!-- EN: thrumbos pass -->
   <ThrumboPasses.label>trumbos pasando</ThrumboPasses.label>
@@ -93,27 +86,27 @@
   <!-- EN: Toxic fallout -->
   <ToxicFallout.letterLabel>Cenizas tóxicas</ToxicFallout.letterLabel>
   <!-- EN: A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
-  <ToxicFallout.letterText>Un incendio químico en la distancia ha extendido una nube tóxica sobre la región. Cualquier persona o criatura que no esté protegida bajo techo, se envenenará lentamente al respirar el polvo tóxico. Podría durar desde unos pocos días hasta un mes.</ToxicFallout.letterText>
+  <ToxicFallout.letterText>Un incendio químico a la distancia ha extendido una nube tóxica sobre la región.\n\nCualquier persona o criatura que no esté protegida bajo techo, se envenenará lentamente al respirar el polvo tóxico.\n\nPodría durar desde unos pocos días hasta un mes.</ToxicFallout.letterText>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>invierno volcánico</VolcanicWinter.label>
   <!-- EN: Volcanic winter -->
   <VolcanicWinter.letterLabel>Invierno volcánico</VolcanicWinter.letterLabel>
   <!-- EN: A distant supervolcano has erupted and begun spewing millions of cubic kilometers of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums. -->
-  <VolcanicWinter.letterText>Un súper volcán ha entrado en erupción y arrojó millones de toneladas de ceniza a la atmósfera del planeta. La ceniza que flota en la atmósfera refleja algo de la luz del sol, dando como resultado un descenso en las temperaturas. Las plantas van a sufrir y posiblemente mueran debido a la falta de luz solar. Esta condición puede durar desde unas pocas semanas hasta meses.</VolcanicWinter.letterText>
+  <VolcanicWinter.letterText>Un lejano súper volcán ha entrado en erupción y ha comenzado a arrojar millones de kilómetros cúbicos de cenizas a la atmósfera.\n\nLa ceniza en la atmósfera oscurecerá el sol. Las temperaturas bajarán y las plantas sufrirán por la falta de luz solar. Podría pasar en unas pocas semanas, o podría durar muchos cuadrantes.</VolcanicWinter.letterText>
   
   <!-- EN: wanderer join -->
   <WandererJoin.label>Un viajero se une</WandererJoin.label>
   <!-- EN: Wanderer joins -->
   <WandererJoin.letterLabel>Vagabundo se une</WandererJoin.letterLabel>
-  <!-- EN: A [PAWN_kind] named [PAWN_nameDef] has arrived and is joining the colony. [PAWN_pronoun] is a [PAWN_title].\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want [PAWN_nameDef], you can banish [PAWN_objective], sell [PAWN_objective] into slavery, or simply kill [PAWN_objective]. However, your other colonists may find this disturbing. -->
-  <WandererJoin.letterText>Un [PAWN_kind] llamado(a) [PAWN_nameDef] ha llegado y se ha unido a la colonia. [PAWN_pronoun] es un [PAWN_title].\n\n[PAWN_pronoun] está dispuesto a contribuir, pero no se irá voluntariamente. Si no quieres a [PAWN_nameDef], puedes desterrarlo(a) , venderlo(a) a la esclavitud, o simplemente matarlo(a). Sin embargo, sus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
+  <!-- EN: A {PAWN_kind} named {PAWN_nameDef} has arrived and is joining the colony. {PAWN_pronoun} is a {PAWN_title}.\n\n[PAWN_pronoun] is willing to contribute, but will not leave voluntarily. If you don't want {PAWN_nameDef}, you can banish {PAWN_objective}, sell {PAWN_objective} into slavery, or simply kill {PAWN_objective}. However, your other colonists may find this disturbing. -->
+  <WandererJoin.letterText>Un {PAWN_kind} llamado(a) {PAWN_nameDef} ha llegado y se ha unido a la colonia. {PAWN_pronoun} es un {PAWN_title}.\n\n[PAWN_pronoun] está dispuesto a contribuir, pero no se irá voluntariamente. Si no quieres a {PAWN_nameDef}, puedes desterrar{PAWN_objective} , vender{PAWN_objective} a la esclavitud, o simplemente matar{PAWN_objective}. Sin embargo, sus otros colonos pueden encontrar esto perturbador.</WandererJoin.letterText>
   
   <!-- EN: wild man wanders in -->
   <WildManWandersIn.label>hombre salvaje</WildManWandersIn.label>
-  <!-- EN: Wild man wanders in -->
-  <WildManWandersIn.letterLabel>Hombre salvaje</WildManWandersIn.letterLabel>
-  <!-- EN: A person living among wild animals has wandered into the area. [PAWN_pronoun]'s called {0}.\n\nYou can attempt to tame [PAWN_objective]. -->
-  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. [PAWN_pronoun] se llama {0}.\n\nPuedes intentar domar a [PAWN_objective].</WildManWandersIn.letterText>
+  <!-- EN: {PAWN_kind} wanders in -->
+  <WildManWandersIn.letterLabel>{PAWN_kind} deambula</WildManWandersIn.letterLabel>
+  <!-- EN: A person living among wild animals has wandered into the area. {PAWN_pronoun}'s called {0}.\n\nYou can attempt to tame or arrest {PAWN_objective}. -->
+  <WildManWandersIn.letterText>Una persona que vive entre animales salvajes ha entrado en la zona. {PAWN_pronoun} se llama {0}.\n\nPuedes intentar domar{PAWN_objective}.</WildManWandersIn.letterText>
   
 </LanguageData>

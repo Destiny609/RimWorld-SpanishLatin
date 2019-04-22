@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: They are attacking immediately. -->
-  <ImmediateAttack.arrivalTextEnemy>Estarán atacando de inmediato.</ImmediateAttack.arrivalTextEnemy>
+  <ImmediateAttack.arrivalTextEnemy>Estarán atacando inmediatamente.</ImmediateAttack.arrivalTextEnemy>
   <!-- EN: They are moving in to help you immediately. -->
   <ImmediateAttack.arrivalTextFriendly>Se están movilizando para ayudarte inmediatamente.</ImmediateAttack.arrivalTextFriendly>
   <!-- EN: Raid -->
@@ -16,7 +16,7 @@
   <ImmediateAttackSappers.letterLabelEnemy>Asalto</ImmediateAttackSappers.letterLabelEnemy>
   
   <!-- EN: They are attacking immediately.\n\nWatch out - they appear to be unusually clever with their tactics. They'll avoid your turrets' fields of fire and notice some of your traps. -->
-  <ImmediateAttackSmart.arrivalTextEnemy>Están atacando inmediatamente.\n\nCuidado, parecen ser inusualmente listos con sus tácticas.  Evitarán las zonas de fuego de sus torretas y descubrirán algunas de sus trampas.</ImmediateAttackSmart.arrivalTextEnemy>
+  <ImmediateAttackSmart.arrivalTextEnemy>Están atacando inmediatamente.\n\nCuidado, parecen ser inusualmente listos con sus tácticas. Evitarán las áreas de tiro de tus torretas y descubrirán algunas de tus trampas.</ImmediateAttackSmart.arrivalTextEnemy>
   <!-- EN: They are moving in to help you immediately. -->
   <ImmediateAttackSmart.arrivalTextFriendly>Se están movilizando para ayudarte inmediatamente.</ImmediateAttackSmart.arrivalTextFriendly>
   <!-- EN: Raid -->
@@ -25,7 +25,7 @@
   <ImmediateAttackSmart.letterLabelFriendly>Aliados</ImmediateAttackSmart.letterLabelFriendly>
   
   <!-- EN: It looks like they want to besiege the colony and pound you with mortars from a distance. You can try to wait them out - or go get them. -->
-  <Siege.arrivalTextEnemy>Parece que quieren asediar la colonia y reducirte a cenizas con mortero a lo lejos, puedes esperarlos o ir tras ellos.</Siege.arrivalTextEnemy>
+  <Siege.arrivalTextEnemy>Parece que quieren asediar la colonia y reducirte a cenizas con un mortero a lo lejos, puedes esperarlos o ir tras ellos.</Siege.arrivalTextEnemy>
   <!-- EN: It looks like they want to use siege tactics to help you. -->
   <Siege.arrivalTextFriendly>Parece que quieren utilizar taticas de asedio para ayudarte.</Siege.arrivalTextFriendly>
   <!-- EN: Siege -->

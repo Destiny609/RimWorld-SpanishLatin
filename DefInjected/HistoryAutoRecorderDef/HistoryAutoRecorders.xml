@@ -19,12 +19,12 @@
   <!-- EN: pop recovery -->
   <PopAdaptation.label>adaptación estelar</PopAdaptation.label>
   <!-- EN: Days -->
-  <PopAdaptation.graphLabelY>días</PopAdaptation.graphLabelY>
+  <PopAdaptation.graphLabelY>Días</PopAdaptation.graphLabelY>
   
   <!-- EN: pop intent x10 -->
   <PopIntent.label>intención estelar x10</PopIntent.label>
   <!-- EN: Days -->
-  <PopIntent.graphLabelY>días</PopIntent.graphLabelY>
+  <PopIntent.graphLabelY>Días</PopIntent.graphLabelY>
   
   <!-- EN: prisoners -->
   <Prisoners.label>prisioneros</Prisoners.label>
@@ -46,10 +46,10 @@
   <!-- EN: Amount -->
   <Wealth_Items.graphLabelY>Cantidad</Wealth_Items.graphLabelY>
   
-  <!-- EN: wealth (animals) -->
-  <Wealth_TameAnimals.label>riqueza (animal)</Wealth_TameAnimals.label>
+  <!-- EN: wealth (creatures) -->
+  <Wealth_Pawns.label>riqueza (animal)</Wealth_Pawns.label>
   <!-- EN: Amount -->
-  <Wealth_TameAnimals.graphLabelY>Cantidad</Wealth_TameAnimals.graphLabelY>
+  <Wealth_Pawns.graphLabelY>Cantidad</Wealth_Pawns.graphLabelY>
   
   <!-- EN: wealth (total) -->
   <Wealth_Total.label>riqueza (total)</Wealth_Total.label>
