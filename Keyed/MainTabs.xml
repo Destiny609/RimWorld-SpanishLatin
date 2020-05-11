@@ -98,8 +98,12 @@
   <CurrentGoodwillTip_Neutral>Esta facción es neutral. Ellos intercambiarán y hablarán con usted libremente. Si las relaciones caen por debajo de {0}, se volverán hostiles. Si las relaciones se elevan por encima de {1}, se aliarán y empezarán a trabajar activamente para ayudarle.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Esta facción es hostil. Asaltarán sus asentamientos y caravanas. Si las relaciones se elevan por encima de {0}, se volverán neutrales.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. If goodwill is over {1}, it will fall by {3} per day. If goodwill is under {0}, it will rise by {2} per day. -->
+  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
   <CurrentGoodwillTip_NaturalGoodwill>Esta facción tiene un rango natural de buena voluntad de {0} a {1}. Si la buena voluntad es superior a {1}, disminuirá {3} por día. Si la buena voluntad está por debajo de {0}, aumentará en {2} por día.</CurrentGoodwillTip_NaturalGoodwill>
+  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillRise>TODO</CurrentGoodwillTip_NaturalGoodwillRise>
+  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
+  <CurrentGoodwillTip_NaturalGoodwillFall>TODO</CurrentGoodwillTip_NaturalGoodwillFall>
   
   <!-- Social tab -->
   <!-- EN: Friend -->
@@ -246,6 +250,8 @@
   <QuestOutcomeInfo_Failed>Has fallado al completar está misión</QuestOutcomeInfo_Failed>
   <!-- EN: Jump to {0} -->
   <JumpToTargetCustom>Saltar a {0}</JumpToTargetCustom>
+  <!-- EN: Select hives -->
+  <SelectHiveTargets>TODO</SelectHiveTargets>
   <!-- EN: Challenge rating. This is a general rating for how difficult the quest will be relative to your current strength. More challenging quests give greater rewards.\n\n1: Normal\n2: Hard\n3: Extreme\n4: Ultimate -->
   <QuestChallengeRatingTip>Clasificación del desafío. Esta es una calificación general de cuán difícil será la misión en relación con tu fuerza actual. Las misiones más desafiantes dan mayores recompensas.\n\n1: Normal\n2: Difícil\n3: Extrema 4:\nSuprema</QuestChallengeRatingTip>
   <!-- EN: To accept this quest, you need -->
@@ -256,6 +262,10 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>un dormitorio libre que satisfaga los requisitos del titulante</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a colonist with the title of {0}. -->
   <QuestNoColonistWithTitle>un colon con el titulo de {0}</QuestNoColonistWithTitle>
+  <!-- EN: Reward preferences -->
+  <ChooseRewards>TODO</ChooseRewards>
+  <!-- EN: Tell other factions what kinds of rewards you want in future quests. This doesn't affect quests that were already offered. -->
+  <ChooseRewardsDesc>TODO</ChooseRewardsDesc>
   <!-- EN: Accept {FACTION_royalFavorLabel} -->
   <AcceptRoyalFavor>Acepta {FACTION_royalFavorLabel}</AcceptRoyalFavor>
   <!-- EN: Whether you wish to be rewarded with {FACTION_royalFavorLabel} from {FACTION_name}.\n\nIf this is disabled, {FACTION_name} will offer other types of rewards instead.\n\nThis setting only affects newly-arriving quests. -->
@@ -268,5 +278,5 @@
   <RoyalFavorOn>Actualmente estás optando por recibir {FACTION_royalFavorLabel}.</RoyalFavorOn>
   <!-- EN: You are currently opting out of receiving {FACTION_royalFavorLabel}. -->
   <RoyalFavorOff>Actualmente estás optando por no recibir {FACTION_royalFavorLabel}.</RoyalFavorOff>
-
+  
 </LanguageData>
