@@ -8,11 +8,11 @@
   <!-- EN: Butchering. -->
   <ButcherCorpseFlesh.jobString>despiezando.</ButcherCorpseFlesh.jobString>
   
-  <!-- EN: shred mechanoid -->
+  <!-- EN: disassemble mechanoid -->
   <ButcherCorpseMechanoid.label>desarmar mecanoide</ButcherCorpseMechanoid.label>
-  <!-- EN: Shred a dead mechanoid to try to salvage usable material. -->
+  <!-- EN: Disassemble a dead mechanoid into its component parts. -->
   <ButcherCorpseMechanoid.description>Desensambla un mecanoide muerto para obtener sus componentes.</ButcherCorpseMechanoid.description>
-  <!-- EN: Shredding mechanoid. -->
+  <!-- EN: Disassembling mechanoid. -->
   <ButcherCorpseMechanoid.jobString>desarmando mecanoide.</ButcherCorpseMechanoid.jobString>
   
 </LanguageData>

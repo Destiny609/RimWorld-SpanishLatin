@@ -11,14 +11,14 @@
   <!-- EN: The speed at which this person butchers flesh creatures. -->
   <ButcheryFleshSpeed.description>Velocidad a la que esta persona despieza animales.</ButcheryFleshSpeed.description>
   
-  <!-- EN: mechanoid shredding efficiency -->
+  <!-- EN: mechanoid disassembly efficiency -->
   <ButcheryMechanoidEfficiency.label>eficiencia de desmontaje</ButcheryMechanoidEfficiency.label>
-  <!-- EN: The amount of materials yielded when this person shreds a dead mechanoid for resources.\n\nThe actual amount is also related to the mechanoid's size. -->
+  <!-- EN: The amount of materials yielded when this person disassembles a dead mechanoid.\n\nThe actual amount is also related to the mechanoid's size. -->
   <ButcheryMechanoidEfficiency.description>La cantidad de materiales producidos cuando esta persona desmonta un mecanoide muerto. La cantidad real también está relacionada con el tamaño del mecanoide.</ButcheryMechanoidEfficiency.description>
   
-  <!-- EN: mechanoid shredding speed -->
+  <!-- EN: mechanoid disassembly speed -->
   <ButcheryMechanoidSpeed.label>velocidad de desmontaje</ButcheryMechanoidSpeed.label>
-  <!-- EN: The speed at which this person can shred a mechanoid for resources. -->
+  <!-- EN: The speed at which this person can disassemble a mechanoid. -->
   <ButcheryMechanoidSpeed.description>Velocidad a la que esta persona puede desensamblar un mecanoide.</ButcheryMechanoidSpeed.description>
   
   <!-- EN: cooking speed -->

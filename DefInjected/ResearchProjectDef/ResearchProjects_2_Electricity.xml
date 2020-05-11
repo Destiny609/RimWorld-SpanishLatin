@@ -78,7 +78,7 @@
   
   <!-- EN: machining -->
   <Machining.label>maquinado</Machining.label>
-  <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to shred dead mechanoids for resources. -->
+  <!-- EN: Build machining tables to craft guns, grenades, flak armor, and to disassemble dead mechanoids for resources. -->
   <Machining.description>Construye mesas de mecanizado para fabricar pistolas, granadas, armaduras antiaéreas y desarmar mecanoides muertos para obtener recursos.</Machining.description>
   
   <!-- EN: mortars -->

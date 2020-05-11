@@ -21,6 +21,11 @@
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
   <Cryptosleep.description>Permite a los colonos construir sarcófagos de criptosueño. Estos mantienen en un estado de animación suspendida a los seres vivos que se encuentran en su interior.</Cryptosleep.description>
   
+  <!-- EN: deep drilling -->
+  <DeepDrilling.label>taladro de profundidad</DeepDrilling.label>
+  <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
+  <DeepDrilling.description>Te permite construir taladros de profundidad, capaces de extraer recursos de las profundidades de la tierra. Necesitarás un escáner de profundidad para encontrar los recursos.</DeepDrilling.description>
+  
   <!-- EN: fabrication -->
   <Fabrication.label>fabricación</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
@@ -29,6 +34,11 @@
   <Fabrication.discoveredLetterText>TODO</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
   <Fabrication.discoveredLetterTitle>TODO</Fabrication.discoveredLetterTitle>
+  
+  <!-- EN: ground-penetrating scanner -->
+  <GroundPenetratingScanner.label>escáner de profundidad</GroundPenetratingScanner.label>
+  <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires advanced components to construct. -->
+  <GroundPenetratingScanner.description>Construye escáneres de penetración en el suelo que puedan detectar recursos perforables bajo la superficie. Requiere componentes avanzados para su construcción.</GroundPenetratingScanner.description>
   
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>multi-analizador</MultiAnalyzer.label>

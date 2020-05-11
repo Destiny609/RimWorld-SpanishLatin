@@ -3,7 +3,7 @@
   
   <!-- EN: psychic animal pulser -->
   <PsychicAnimalPulser.label>púlsar psíquico animal</PsychicAnimalPulser.label>
-  <!-- EN: A one-use broad-wave psychic effector. The psychic pulse fills lower minds with terrifying imagery, driving all animals in the region into a manhunting rage. Animals currently under your control will not be affected. -->
+  <!-- EN: A one-use broad-wave psychic effector. The psychic pulse fills lower minds with terrifying imagery, driving all animals in the region into a manhunting rage. -->
   <PsychicAnimalPulser.description>Artefacto de un solo usa que provoca una furia cazahombres en todos los animales de la región.</PsychicAnimalPulser.description>
   <!-- EN: Activate -->
   <PsychicAnimalPulser.comps.CompUsable.useLabel>Activar</PsychicAnimalPulser.comps.CompUsable.useLabel>
