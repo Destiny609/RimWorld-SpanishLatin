@@ -77,11 +77,10 @@
   <WoolAlpaca.description>La lana de las alpacas es increíblemente suave.</WoolAlpaca.description>
   <WoolAlpaca.stuffProps.stuffAdjective>Lana de alpaca</WoolAlpaca.stuffProps.stuffAdjective>
   
-  <!-- EN: camelhair -->
-  <WoolCamel.label>pelo de camello</WoolCamel.label>
-  <!-- EN: Camelhair clothing is usually worn by desert travelers to protect them from the heat. It provides excellent heat insulation due to its thermostatic properties. -->
-  <WoolCamel.description>La ropa de pelo de camello es usualmente usada por los viajeros del desierto para protegerlos del calor. Proporciona un excelente aislamiento debido a sus propiedades termostáticas.</WoolCamel.description>
-  <WoolCamel.stuffProps.stuffAdjective>Pelo de camello</WoolCamel.stuffProps.stuffAdjective>
+  <!-- EN: bison wool -->
+  <WoolBison.label>TODO</WoolBison.label>
+  <!-- EN: Thick and coarse wool of a bison. Quite warm. -->
+  <WoolBison.description>TODO</WoolBison.description>
   
   <!-- EN: megasloth wool -->
   <WoolMegasloth.label>lana de megaterio</WoolMegasloth.label>
@@ -94,5 +93,11 @@
   <!-- EN: Soft, light and provides very good insulation. Muffalo wool clothes can keep the body warm even in very cold conditions. -->
   <WoolMuffalo.description>Suave, ligera y tiene es un muy buen aislante. La ropa hecha con esta lana puede mantener caliente el cuerpo, incluso en condiciones extremas.</WoolMuffalo.description>
   <WoolMuffalo.stuffProps.stuffAdjective>Lana de múfalo</WoolMuffalo.stuffProps.stuffAdjective>
+  
+  <!-- EN: sheep wool -->
+  <WoolSheep.label>pelo de camello</WoolSheep.label>
+  <!-- EN: Sheep's wool. It provides good insulation. -->
+  <WoolSheep.description>La ropa de pelo de camello es usualmente usada por los viajeros del desierto para protegerlos del calor. Proporciona un excelente aislamiento debido a sus propiedades termostáticas.</WoolSheep.description>
+  <WoolSheep.stuffProps.stuffAdjective>Pelo de camello</WoolSheep.stuffProps.stuffAdjective>
   
 </LanguageData>

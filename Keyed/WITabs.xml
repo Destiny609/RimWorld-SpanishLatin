@@ -18,10 +18,10 @@
   <TabCaravanItems>Objetos</TabCaravanItems>
   
   <!-- Misc -->
-  <!-- EN: Abandon {{0}}x {1_labelShort} -->
-  <AbandonSliderText>Abandonar {{0}}x {1_labelShort}</AbandonSliderText>
-  <!-- EN: Do you really want to abandon {1_label}?\n\nAbandoned items vanish and can never be recovered. -->
-  <ConfirmAbandonItemDialog>¿Realmente deseas abandonar {1_label}?\n\nLos objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</ConfirmAbandonItemDialog>
+  <!-- EN: Abandon {{0}}x {0} -->
+  <AbandonSliderText>Abandonar {{0}}x {0}</AbandonSliderText>
+  <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
+  <ConfirmAbandonItemDialog>¿Realmente deseas abandonar {0}?\n\nLos objetos abandonados se desvanecerán y no podrán ser recuperados jamás.</ConfirmAbandonItemDialog>
   <!-- EN: Abandon -->
   <AbandonTip>Abandonar</AbandonTip>
   <!-- EN: Banish -->
@@ -46,7 +46,7 @@
   <OpenSpecificTabButtonTip>Haz click para abrir una pestaña con más detalles.</OpenSpecificTabButtonTip>
   <!-- EN: Prisoners -->
   <CaravanPrisoners>Prisioneros</CaravanPrisoners>
-  <!-- EN: Inventory -->
+  <!-- EN: Equippable items -->
   <CaravanWeaponsAndApparel>Inventario</CaravanWeaponsAndApparel>
   <!-- EN: None capable -->
   <NoneCapable>No hay nadie preparado</NoneCapable>

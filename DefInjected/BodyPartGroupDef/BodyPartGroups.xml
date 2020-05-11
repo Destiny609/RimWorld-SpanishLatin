@@ -71,6 +71,11 @@
   <!-- EN: legs -->
   <Legs.label>piernas</Legs.label>
   
+  <!-- EN: middle finger -->
+  <MiddleFingers.label>dedo medio</MiddleFingers.label>
+  <!-- EN: finger -->
+  <MiddleFingers.labelShort>dedo</MiddleFingers.labelShort>
+  
   <!-- EN: mouth -->
   <Mouth.label>boca</Mouth.label>
   

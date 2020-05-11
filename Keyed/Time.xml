@@ -9,9 +9,13 @@
   <LetterMinute>m</LetterMinute>
   <!-- EN: s -->
   <LetterSecond>s</LetterSecond>
-  
+  <!-- EN: y -->
+  <LetterYear>a</LetterYear>
+
   <!-- EN: days -->
   <DaysLower>días</DaysLower>
+  <!-- EN: hours -->
+  <HoursLower>horas</HoursLower>
   <!-- EN: seconds -->
   <SecondsLower>segundos</SecondsLower>
 
@@ -36,6 +40,15 @@
   <QuadrumSeptober>Septobre</QuadrumSeptober>
   <!-- EN: Decembary -->
   <QuadrumDecembary>Dicienero</QuadrumDecembary>
+
+  <!-- EN: Apr -->
+  <QuadrumAprimay_Short>Abr</QuadrumAprimay_Short>
+  <!-- EN: Jug -->
+  <QuadrumJugust_Short>Jul</QuadrumJugust_Short>
+  <!-- EN: Sep -->
+  <QuadrumSeptober_Short>Sep</QuadrumSeptober_Short>
+  <!-- EN: Dec -->
+  <QuadrumDecembary_Short>Dic</QuadrumDecembary_Short>
   
   <!-- EN: Born: {0} -->
   <Born>Nacimiento: {0}</Born>
