@@ -5,6 +5,8 @@
   <Confirm>Confirmar</Confirm>
   <!-- EN: Go back -->
   <GoBack>Regresar</GoBack>
+  <!-- EN: Do you want to continue? -->
+  <WantToContinue>TODO</WantToContinue>
   <!-- EN: OK -->
   <OK>OK</OK>
   <!-- EN: Close -->
@@ -448,13 +450,15 @@
   <PowerConsumption>Consumo de energía</PowerConsumption>
   <!-- EN: Target -->
   <Target>TODO</Target>
-  <!-- EN: Human -->
+  <!-- EN: The types of targets on which this ability can be used. -->
+  <AbilityTargetDesc>TODO</AbilityTargetDesc>
+  <!-- EN: human -->
   <TargetHuman>TODO</TargetHuman>
-  <!-- EN: Animal -->
+  <!-- EN: animal -->
   <TargetAnimal>TODO</TargetAnimal>
-  <!-- EN: Self -->
+  <!-- EN: self -->
   <TargetSelf>TODO</TargetSelf>
-  <!-- EN: Ground -->
+  <!-- EN: ground -->
   <TargetGround>TODO</TargetGround>
   <!-- EN: Click to learn more. -->
   <ClickToLearnMore>TODO</ClickToLearnMore>
