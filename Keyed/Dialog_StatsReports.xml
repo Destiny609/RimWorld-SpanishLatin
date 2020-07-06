@@ -23,7 +23,7 @@
   <!-- EN: Character quality -->
   <StatsReport_CharacterQuality>Calidad de personaje</StatsReport_CharacterQuality>
   <!-- EN: Skills -->
-  <StatsReport_Skills>Factores de habilidad</StatsReport_Skills>
+  <StatsReport_Skills>Habilidades</StatsReport_Skills>
   <!-- EN: Post-process - other stats -->
   <StatsReport_OtherStats>Otros factores de habilidad</StatsReport_OtherStats>
   <!-- EN: Health -->
@@ -114,37 +114,37 @@
   <StatsReport_NonToolAttack>Asalto</StatsReport_NonToolAttack>
 
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
-  <Stat_RecreationType_Desc>TODO</Stat_RecreationType_Desc>
+  <Stat_RecreationType_Desc>Diferentes fuentes de recreación satisfacen diferentes tipos de diversión. Los colonos se aburren de hacer el mismo tipo de recreación repetidamente, por lo que es importante proporcionar una variedad de fuentes de recreación con diferentes tipos de actividades recreativas.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
-  <Stat_JoyKind_AllTypes>TODO</Stat_JoyKind_AllTypes>
+  <Stat_JoyKind_AllTypes>Todos los tipos de recreación</Stat_JoyKind_AllTypes>
   <!-- EN: Mined item -->
-  <Stat_MineableThing_Name>TODO</Stat_MineableThing_Name>
+  <Stat_MineableThing_Name>Artículo minado</Stat_MineableThing_Name>
   <!-- EN: The item that will be yielded when mining this. -->
-  <Stat_MineableThing_Desc>TODO</Stat_MineableThing_Desc>
+  <Stat_MineableThing_Desc>El artículo que se obtendrá cuando se extraiga esto. </Stat_MineableThing_Desc>
   <!-- EN: Source species -->
-  <Stat_SourceSpecies_Name>TODO</Stat_SourceSpecies_Name>
+  <Stat_SourceSpecies_Name>Especies de origen</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
-  <Stat_SourceSpecies_Desc>TODO</Stat_SourceSpecies_Desc>
+  <Stat_SourceSpecies_Desc>La especie de criatura de la que esto fue tomado.</Stat_SourceSpecies_Desc>
   <!-- EN: Stuff -->
-  <Stat_Stuff_Name>TODO</Stat_Stuff_Name>
+  <Stat_Stuff_Name>Material</Stat_Stuff_Name>
   <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
-  <Stat_Stuff_Desc>TODO</Stat_Stuff_Desc>
+  <Stat_Stuff_Desc>Los materiales de las que está hecha. Esto afecta a muchas otras estadísticas, incluyendo el daño de las armas, la armadura y el aislamiento de la ropa, los puntos de impacto de los artículos y edificios, la belleza, el valor de mercado y mucho más.</Stat_Stuff_Desc>
   <!-- EN: Weapon -->
-  <Stat_Weapon_Name>TODO</Stat_Weapon_Name>
+  <Stat_Weapon_Name>Arma</Stat_Weapon_Name>
   <!-- EN: The weapon used by this turret. -->
-  <Stat_Weapon_Desc>TODO</Stat_Weapon_Desc>
+  <Stat_Weapon_Desc>El arma usada por esta torreta.</Stat_Weapon_Desc>
   <!-- EN: How much damage an object can take before being destroyed. -->
-  <Stat_HitPoints_Desc>TODO</Stat_HitPoints_Desc>
+  <Stat_HitPoints_Desc>Cuánto daño puede soportar un objeto antes de ser destruido.</Stat_HitPoints_Desc>
   <!-- EN: The amount of work it takes to uninstall this. -->
-  <Stat_Thing_WorkToUninstall_Desc>TODO</Stat_Thing_WorkToUninstall_Desc>
+  <Stat_Thing_WorkToUninstall_Desc>La cantidad de trabajo que se necesita para desinstalar esto.</Stat_Thing_WorkToUninstall_Desc>
   <!-- EN: Which facilities can be used to produce this. -->
-  <Stat_Thing_CreatedAt_Desc>TODO</Stat_Thing_CreatedAt_Desc>
+  <Stat_Thing_CreatedAt_Desc>Qué instalaciones se pueden usar para producir esto.</Stat_Thing_CreatedAt_Desc>
   <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
-  <Stat_Thing_Damage_Desc>TODO</Stat_Thing_Damage_Desc>
+  <Stat_Thing_Damage_Desc>El daño que esta arma causa.\n\nEsto puede ser desviado o mitigado por la armadura del objetivo.</Stat_Thing_Damage_Desc>
   <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
-  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>TODO</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Un multiplicador en la cantidad de experiencia que los médicos ganan al usar esto para atender a un paciente.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
   <!-- EN: The attributes of this plant. -->
-  <Stat_Thing_Plant_Attributes_Desc>TODO</Stat_Thing_Plant_Attributes_Desc>
+  <Stat_Thing_Plant_Attributes_Desc>Los atributos de esta planta.</Stat_Thing_Plant_Attributes_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>TODO</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->

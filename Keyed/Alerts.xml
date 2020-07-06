@@ -49,7 +49,7 @@
   <!-- EN: Low food -->
   <LowFood>Poca comida</LowFood>
   <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
-  <LowFoodDesc>Estas peligrosamente bajo de comida.\n\n    Solamente tienes en tus almacenes: {0} unidades de comida\n    Colonos y prisioneros recibiendo comida: {1}\n    Días de comida en el almacén: {2}\n\nCultiva, compra, encuentra o mata algo para comer.</LowFoodDesc>
+  <LowFoodDesc>Estás peligrosamente escaso de comida.\n\n    Solamente tienes en tus almacenes: {0} unidades de comida\n    Colonos y prisioneros recibiendo comida: {1}\n    Días de comida en el almacén: {2}\n\nCultiva, compra, encuentra o mata algo para comer.</LowFoodDesc>
 
   <!-- EN: Low medicine -->
   <LowMedicine>Poca medicina</LowMedicine>
@@ -64,9 +64,9 @@
   <NeedColonistBedsDesc>Tienes más colonos que camas para dormir. Alguien tendrá que dormir en el suelo.\n\nConstruye más camas o reasigna la cama de un prisionero para uso de los colonos.\n\nSi no tienes recursos, los sitios para dormir son gratis y se crean instantáneamente.</NeedColonistBedsDesc>
   
   <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>TODO</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburied>Colono sin enterrar</AlertColonistLeftUnburied>
   <!-- EN: A colonist is left unburied.\n\nThis may negatively affects your colonists mood. -->
-  <AlertColonistLeftUnburiedDesc>TODO</AlertColonistLeftUnburiedDesc>
+  <AlertColonistLeftUnburiedDesc>Un colono está sin enterrar.\n\nEsto puede afectar negativamente el estado de ánimo de los colonos.</AlertColonistLeftUnburiedDesc>
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Cazador no tiene arma a distancia</HunterLacksWeapon>
@@ -152,9 +152,9 @@
   <ColonistsIdleDesc>Estos colonos están vagando sin nada que hacer:\n\n{0}\nDeberías encontrarles algo productivo que hacer.</ColonistsIdleDesc>
   
   <!-- EN: Caravan idle -->
-  <CaravanIdle>TODO</CaravanIdle>
+  <CaravanIdle>Caravana ociosa</CaravanIdle>
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
-  <CaravanIdleDesc>TODO</CaravanIdleDesc>
+  <CaravanIdleDesc>Estas caravanas están esperando que usted establezca su próximo destino:\n\n{0}</CaravanIdleDesc>
 
   <!-- EN: Colonist needs treatment -->
   <ColonistNeedsTreatment>Colonos necesitan tratamiento</ColonistNeedsTreatment>
@@ -208,41 +208,41 @@
   <ImmobileCaravanDesc>Una de tus caravanas está inmóvil debido a que carga un sobrepeso.\n\nPuedes hacer que se mueva nuevamente abandonando algunos objetos en la pestaña EQUIPO.</ImmobileCaravanDesc>
 
   <!-- EN: Building unusable due to roof -->
-  <BuildingCantBeUsedRoofed>TODO</BuildingCantBeUsedRoofed>
+  <BuildingCantBeUsedRoofed>Edificio inservible por el techo</BuildingCantBeUsedRoofed>
   <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>TODO</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofedDesc>Uno o más de sus edificios sólo pueden ser utilizados si no están techados, pero hay un techo sobre ellos. El edificio no serán utilizable hasta que no se quite el techo.</BuildingCantBeUsedRoofedDesc>
 
   <!-- EN: Heatstroke -->
-  <AlertHeatstroke>TODO</AlertHeatstroke>
+  <AlertHeatstroke>Insolación</AlertHeatstroke>
   <!-- EN: The following people are suffering from heatstroke:\n\n{0}\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>TODO</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>Las siguientes personas están sufriendo una insolación:\n\n{0}\nLlévalos a un área más fresca. Puedes enfriar las habitaciones con refrigeradores pasivos o refrigeradores eléctricos. Los espacios subterráneos profundos también son naturalmente frescos, si están separados del exterior por una puerta.</AlertHeatstrokeDesc>
 
   <!-- EN: Guest unhappy -->
-  <QuestPartMoodBelowThreshold>TODO</QuestPartMoodBelowThreshold>
+  <QuestPartMoodBelowThreshold>Visitante incómodo</QuestPartMoodBelowThreshold>
   <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>TODO</QuestPartMoodBelowThresholdDesc>
+  <QuestPartMoodBelowThresholdDesc>La misión {0} requiere que mantengas a esta persona de buen humor. Sin embargo, su humor es bajo. Has algo para hacerlos sentir mejor: \n\n{1}</QuestPartMoodBelowThresholdDesc>
   
   <!-- EN: Shuttle leaving in {0} -->
-  <QuestPartShuttleLeaveDelay>TODO</QuestPartShuttleLeaveDelay>
+  <QuestPartShuttleLeaveDelay>El transbordador se va en {0}</QuestPartShuttleLeaveDelay>
   <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>TODO</QuestPartShuttleLeaveDelayDesc>
+  <QuestPartShuttleLeaveDelayDesc>El transbordador se va en {1}. La misión {0} requiere que cargues las siguientes personas o artículos en el transbordador antes de que salga:\n\n{2}</QuestPartShuttleLeaveDelayDesc>
 
   <!-- EN: Monument will be destroyed -->
-  <DisallowedBuildingInsideMonument>TODO</DisallowedBuildingInsideMonument>
+  <DisallowedBuildingInsideMonument>El monumento será destruido</DisallowedBuildingInsideMonument>
   <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
-  <DisallowedBuildingInsideMonumentDesc>TODO</DisallowedBuildingInsideMonumentDesc>
+  <DisallowedBuildingInsideMonumentDesc>Has construido un edificio prohibido dentro de tu territorio. El monumento se considerará destruido en {0}</DisallowedBuildingInsideMonumentDesc>
 
   <!-- EN: Countdown activator {0} -->
-  <ActivatorCountdown>TODO</ActivatorCountdown>
+  <ActivatorCountdown>Activador de cuenta regresiva {0}</ActivatorCountdown>
   <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDesc>TODO</ActivatorCountdownDesc>
+  <ActivatorCountdownDesc>Hay un activador de cuenta regresiva que se prepara para despertar a los mecanóides cercanos.</ActivatorCountdownDesc>
   <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>TODO</ActivatorCountdownMultiple>
+  <ActivatorCountdownMultiple>{0} activadores de cuenta regresiva</ActivatorCountdownMultiple>
   <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDescMultiple>TODO</ActivatorCountdownDescMultiple>
+  <ActivatorCountdownDescMultiple>Hay {0} activadores de cuenta regresiva haciendo "Tic-Tac", preparándose para despertar a los mecanoides cercanos.</ActivatorCountdownDescMultiple>
 
   <!-- EN: Quest expires in {0} -->
-  <QuestExpiresSoon>TODO</QuestExpiresSoon>
+  <QuestExpiresSoon>La misión expira en {0}</QuestExpiresSoon>
   <!-- EN: The quest '{0}' will expire in {1}. -->
-  <QuestExpiresSoonDesc>TODO</QuestExpiresSoonDesc>
+  <QuestExpiresSoonDesc>La misión '{0}' expirara en {1}.</QuestExpiresSoonDesc>
 </LanguageData>
